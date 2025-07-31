@@ -151,24 +151,20 @@ npm run dev # o bun dev
 ## 📸 Capturas de Pantalla
 
 ### 🏠 Dashboard Principal
-*[Aquí puedes agregar una imagen del dashboard]*
 
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](https://github.com/AndresFelipe23/NexusFinance/blob/main/Capturas/dashboard.png)
 
 ### 💰 Gestión de Transacciones
-*[Aquí puedes agregar una imagen de la gestión de transacciones]*
 
-![Transacciones](./screenshots/transacciones.png)
+![Transacciones](https://github.com/AndresFelipe23/NexusFinance/blob/main/Capturas/transacciones.png)
 
 ### 📊 Reportes y Gráficos
-*[Aquí puedes agregar una imagen de los reportes]*
 
-![Reportes](./screenshots/reportes.png)
+![Reportes](https://github.com/AndresFelipe23/NexusFinance/blob/main/Capturas/reportes.png)
 
 ### ✈️ Planificación de Viajes
-*[Aquí puedes agregar una imagen del módulo de viajes]*
 
-![Viajes](./screenshots/viajes.png)
+![Viajes](https://github.com/AndresFelipe23/NexusFinance/blob/main/Capturas/mis_planes_de_vacaciones.png)
 
 ---
 
