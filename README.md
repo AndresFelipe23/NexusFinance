@@ -257,7 +257,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ¿Tienes preguntas o necesitas ayuda?
 
-- 📧 Email: soporte@nexusfinance.com
+- 📧 Email: andresfelipeespitiasanchez@gmail.com
 - 🐛 Issues: [GitHub Issues](https://github.com/tu-usuario/nexusfinance/issues)
 - 📖 Documentación: [Wiki del Proyecto](https://github.com/tu-usuario/nexusfinance/wiki)
 
