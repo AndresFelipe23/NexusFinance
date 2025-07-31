@@ -1,0 +1,457 @@
+2025-07-31 09:11:38.966 -05:00 [INF] User profile is available. Using 'C:\Users\57315\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-31 09:11:39.250 -05:00 [INF] Now listening on: http://localhost:5232
+2025-07-31 09:11:39.253 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-31 09:11:39.256 -05:00 [INF] Hosting environment: Development
+2025-07-31 09:11:39.258 -05:00 [INF] Content root path: C:\Users\57315\Documents\AndresEspitia\NexusFinance\NexusFinance.API
+2025-07-31 09:12:05.731 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/ - null null
+2025-07-31 09:12:05.939 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-07-31 09:12:06.601 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/ - 404 0 null 873.866ms
+2025-07-31 09:12:06.611 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5232/, Response status code: 404
+2025-07-31 09:12:14.063 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger - null null
+2025-07-31 09:12:14.105 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger - 301 0 null 43.7748ms
+2025-07-31 09:12:15.455 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger/v1/swagger.json - null null
+2025-07-31 09:12:16.557 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1102.1495ms
+2025-07-31 10:18:10.139 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - null null
+2025-07-31 10:18:10.164 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:18:10.168 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - 204 null null 32.1204ms
+2025-07-31 10:18:10.176 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - application/json 52
+2025-07-31 10:18:10.185 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:18:10.202 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-31 10:18:10.268 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-31 10:18:11.905 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType17`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType18`6[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-31 10:18:11.954 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 1679.7005ms
+2025-07-31 10:18:11.956 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-31 10:18:11.961 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - 200 null application/json; charset=utf-8 1785.4022ms
+2025-07-31 10:18:12.635 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - null null
+2025-07-31 10:18:12.636 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - null null
+2025-07-31 10:18:12.641 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:18:12.644 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - 204 null null 8.9966ms
+2025-07-31 10:18:12.645 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:18:12.647 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - application/json null
+2025-07-31 10:18:12.648 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - 204 null null 12.0597ms
+2025-07-31 10:18:12.651 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:18:12.713 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API)'
+2025-07-31 10:18:12.730 -05:00 [INF] Route matched with {action = "ObtenerDashboardCompleto", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NexusFinance.API.Models.DTOs.DashboardCompletoDTO]] ObtenerDashboardCompleto(System.Guid) on controller NexusFinance.API.Controllers.DashboardController (NexusFinance.API).
+2025-07-31 10:18:13.112 -05:00 [INF] Solicitando dashboard completo para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:18:13.122 -05:00 [INF] Obteniendo dashboard completo para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:18:13.126 -05:00 [INF] Obteniendo estadísticas generales...
+2025-07-31 10:18:13.189 -05:00 [INF] Ejecutando SP de estadísticas generales para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:18:15.256 -05:00 [INF] Obteniendo gastos por categoría...
+2025-07-31 10:18:15.263 -05:00 [INF] Ejecutando SP de transacciones por categoría para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", tipo: gasto
+2025-07-31 10:18:15.396 -05:00 [INF] Obteniendo ingresos por categoría...
+2025-07-31 10:18:15.398 -05:00 [INF] Ejecutando SP de transacciones por categoría para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", tipo: ingreso
+2025-07-31 10:18:15.517 -05:00 [INF] Obteniendo tendencias mensuales...
+2025-07-31 10:18:15.527 -05:00 [INF] Ejecutando SP de tendencias mensuales para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:18:15.655 -05:00 [INF] Se obtuvieron 6 tendencias mensuales para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:18:15.672 -05:00 [INF] Obteniendo resumen de metas...
+2025-07-31 10:18:15.681 -05:00 [INF] Ejecutando SP de resumen de metas para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 5
+2025-07-31 10:18:15.822 -05:00 [INF] Se obtuvieron 2 metas para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:18:15.835 -05:00 [INF] Obteniendo resumen de cuentas...
+2025-07-31 10:18:15.844 -05:00 [INF] Ejecutando SP de resumen de cuentas para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 6
+2025-07-31 10:18:15.975 -05:00 [INF] Se obtuvieron 2 cuentas para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:18:15.983 -05:00 [INF] Obteniendo transacciones recientes...
+2025-07-31 10:18:16.018 -05:00 [INF] Ejecutando SP de transacciones recientes para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 10
+2025-07-31 10:18:16.143 -05:00 [INF] Se obtuvieron 9 transacciones recientes para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:18:16.149 -05:00 [INF] Dashboard completo obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:18:16.160 -05:00 [INF] Dashboard completo obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:18:16.173 -05:00 [INF] Executing OkObjectResult, writing value of type 'NexusFinance.API.Models.DTOs.DashboardCompletoDTO'.
+2025-07-31 10:18:16.331 -05:00 [INF] Executed action NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API) in 3599.2988ms
+2025-07-31 10:18:16.339 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - application/json null
+2025-07-31 10:18:16.340 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API)'
+2025-07-31 10:18:16.348 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:18:16.358 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API)'
+2025-07-31 10:18:16.361 -05:00 [INF] Route matched with {action = "ObtenerDashboardCompleto", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NexusFinance.API.Models.DTOs.DashboardCompletoDTO]] ObtenerDashboardCompleto(System.Guid) on controller NexusFinance.API.Controllers.DashboardController (NexusFinance.API).
+2025-07-31 10:18:16.374 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - 200 null application/json; charset=utf-8 3726.7865ms
+2025-07-31 10:18:16.379 -05:00 [INF] Solicitando dashboard completo para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:18:16.390 -05:00 [INF] Obteniendo dashboard completo para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:18:16.393 -05:00 [INF] Obteniendo estadísticas generales...
+2025-07-31 10:18:16.395 -05:00 [INF] Ejecutando SP de estadísticas generales para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:18:16.557 -05:00 [INF] Obteniendo gastos por categoría...
+2025-07-31 10:18:16.560 -05:00 [INF] Ejecutando SP de transacciones por categoría para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", tipo: gasto
+2025-07-31 10:18:16.662 -05:00 [INF] Obteniendo ingresos por categoría...
+2025-07-31 10:18:16.668 -05:00 [INF] Ejecutando SP de transacciones por categoría para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", tipo: ingreso
+2025-07-31 10:18:16.780 -05:00 [INF] Obteniendo tendencias mensuales...
+2025-07-31 10:18:16.797 -05:00 [INF] Ejecutando SP de tendencias mensuales para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:18:16.933 -05:00 [INF] Se obtuvieron 6 tendencias mensuales para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:18:16.994 -05:00 [INF] Obteniendo resumen de metas...
+2025-07-31 10:18:17.033 -05:00 [INF] Ejecutando SP de resumen de metas para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 5
+2025-07-31 10:18:17.217 -05:00 [INF] Se obtuvieron 2 metas para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:18:17.311 -05:00 [INF] Obteniendo resumen de cuentas...
+2025-07-31 10:18:17.314 -05:00 [INF] Ejecutando SP de resumen de cuentas para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 6
+2025-07-31 10:18:17.439 -05:00 [INF] Se obtuvieron 2 cuentas para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:18:17.445 -05:00 [INF] Obteniendo transacciones recientes...
+2025-07-31 10:18:17.448 -05:00 [INF] Ejecutando SP de transacciones recientes para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 10
+2025-07-31 10:18:17.554 -05:00 [INF] Se obtuvieron 9 transacciones recientes para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:18:17.560 -05:00 [INF] Dashboard completo obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:18:17.563 -05:00 [INF] Dashboard completo obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:18:17.568 -05:00 [INF] Executing OkObjectResult, writing value of type 'NexusFinance.API.Models.DTOs.DashboardCompletoDTO'.
+2025-07-31 10:18:17.591 -05:00 [INF] Executed action NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API) in 1220.9498ms
+2025-07-31 10:18:17.595 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API)'
+2025-07-31 10:18:17.599 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - 499 null application/json; charset=utf-8 1260.2915ms
+2025-07-31 10:36:08.823 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - null null
+2025-07-31 10:36:08.844 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:36:08.853 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - 204 null null 35.5476ms
+2025-07-31 10:36:08.860 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - application/json 52
+2025-07-31 10:36:08.864 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:36:08.872 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-31 10:36:08.879 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-31 10:36:09.780 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType17`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType18`6[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-31 10:36:09.784 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 903.4254ms
+2025-07-31 10:36:09.786 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-31 10:36:09.787 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - 200 null application/json; charset=utf-8 926.717ms
+2025-07-31 10:36:10.360 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - null null
+2025-07-31 10:36:10.361 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - null null
+2025-07-31 10:36:10.364 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:36:10.368 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:36:10.368 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - 204 null null 8.0665ms
+2025-07-31 10:36:10.369 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - 204 null null 8.2336ms
+2025-07-31 10:36:10.375 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - application/json null
+2025-07-31 10:36:10.378 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:36:10.386 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API)'
+2025-07-31 10:36:10.388 -05:00 [INF] Route matched with {action = "ObtenerDashboardCompleto", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NexusFinance.API.Models.DTOs.DashboardCompletoDTO]] ObtenerDashboardCompleto(System.Guid) on controller NexusFinance.API.Controllers.DashboardController (NexusFinance.API).
+2025-07-31 10:36:10.407 -05:00 [INF] Solicitando dashboard completo para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:10.407 -05:00 [INF] Obteniendo dashboard completo para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:10.408 -05:00 [INF] Obteniendo estadísticas generales...
+2025-07-31 10:36:10.408 -05:00 [INF] Ejecutando SP de estadísticas generales para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:11.231 -05:00 [INF] Obteniendo gastos por categoría...
+2025-07-31 10:36:11.234 -05:00 [INF] Ejecutando SP de transacciones por categoría para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", tipo: gasto
+2025-07-31 10:36:11.365 -05:00 [INF] Obteniendo ingresos por categoría...
+2025-07-31 10:36:11.369 -05:00 [INF] Ejecutando SP de transacciones por categoría para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", tipo: ingreso
+2025-07-31 10:36:11.479 -05:00 [INF] Obteniendo tendencias mensuales...
+2025-07-31 10:36:11.487 -05:00 [INF] Ejecutando SP de tendencias mensuales para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:11.624 -05:00 [INF] Se obtuvieron 6 tendencias mensuales para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:11.628 -05:00 [INF] Obteniendo resumen de metas...
+2025-07-31 10:36:11.630 -05:00 [INF] Ejecutando SP de resumen de metas para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 5
+2025-07-31 10:36:11.746 -05:00 [INF] Se obtuvieron 2 metas para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:11.751 -05:00 [INF] Obteniendo resumen de cuentas...
+2025-07-31 10:36:11.753 -05:00 [INF] Ejecutando SP de resumen de cuentas para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 6
+2025-07-31 10:36:11.872 -05:00 [INF] Se obtuvieron 2 cuentas para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:11.876 -05:00 [INF] Obteniendo transacciones recientes...
+2025-07-31 10:36:11.877 -05:00 [INF] Ejecutando SP de transacciones recientes para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 10
+2025-07-31 10:36:12.002 -05:00 [INF] Se obtuvieron 9 transacciones recientes para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:12.004 -05:00 [INF] Dashboard completo obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:12.006 -05:00 [INF] Dashboard completo obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:12.008 -05:00 [INF] Executing OkObjectResult, writing value of type 'NexusFinance.API.Models.DTOs.DashboardCompletoDTO'.
+2025-07-31 10:36:12.012 -05:00 [INF] Executed action NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API) in 1622.2097ms
+2025-07-31 10:36:12.016 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API)'
+2025-07-31 10:36:12.018 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - application/json null
+2025-07-31 10:36:12.019 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - 200 null application/json; charset=utf-8 1643.1498ms
+2025-07-31 10:36:12.022 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:36:12.032 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API)'
+2025-07-31 10:36:12.035 -05:00 [INF] Route matched with {action = "ObtenerDashboardCompleto", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NexusFinance.API.Models.DTOs.DashboardCompletoDTO]] ObtenerDashboardCompleto(System.Guid) on controller NexusFinance.API.Controllers.DashboardController (NexusFinance.API).
+2025-07-31 10:36:12.039 -05:00 [INF] Solicitando dashboard completo para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:12.041 -05:00 [INF] Obteniendo dashboard completo para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:12.041 -05:00 [INF] Obteniendo estadísticas generales...
+2025-07-31 10:36:12.042 -05:00 [INF] Ejecutando SP de estadísticas generales para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:12.153 -05:00 [INF] Obteniendo gastos por categoría...
+2025-07-31 10:36:12.155 -05:00 [INF] Ejecutando SP de transacciones por categoría para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", tipo: gasto
+2025-07-31 10:36:12.264 -05:00 [INF] Obteniendo ingresos por categoría...
+2025-07-31 10:36:12.266 -05:00 [INF] Ejecutando SP de transacciones por categoría para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", tipo: ingreso
+2025-07-31 10:36:12.382 -05:00 [INF] Obteniendo tendencias mensuales...
+2025-07-31 10:36:12.384 -05:00 [INF] Ejecutando SP de tendencias mensuales para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:12.493 -05:00 [INF] Se obtuvieron 6 tendencias mensuales para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:12.496 -05:00 [INF] Obteniendo resumen de metas...
+2025-07-31 10:36:12.497 -05:00 [INF] Ejecutando SP de resumen de metas para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 5
+2025-07-31 10:36:12.605 -05:00 [INF] Se obtuvieron 2 metas para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:12.608 -05:00 [INF] Obteniendo resumen de cuentas...
+2025-07-31 10:36:12.609 -05:00 [INF] Ejecutando SP de resumen de cuentas para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 6
+2025-07-31 10:36:12.718 -05:00 [INF] Se obtuvieron 2 cuentas para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:12.721 -05:00 [INF] Obteniendo transacciones recientes...
+2025-07-31 10:36:12.723 -05:00 [INF] Ejecutando SP de transacciones recientes para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 10
+2025-07-31 10:36:12.840 -05:00 [INF] Se obtuvieron 9 transacciones recientes para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:12.843 -05:00 [INF] Dashboard completo obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:12.844 -05:00 [INF] Dashboard completo obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:12.846 -05:00 [INF] Executing OkObjectResult, writing value of type 'NexusFinance.API.Models.DTOs.DashboardCompletoDTO'.
+2025-07-31 10:36:12.848 -05:00 [INF] Executed action NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API) in 810.0119ms
+2025-07-31 10:36:12.849 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API)'
+2025-07-31 10:36:12.851 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - 200 null application/json; charset=utf-8 832.044ms
+2025-07-31 10:36:29.427 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Reportes/dashboard-financiero - null null
+2025-07-31 10:36:29.433 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:36:29.436 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Reportes/dashboard-financiero - 204 null null 8.4509ms
+2025-07-31 10:36:29.451 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Reportes/dashboard-financiero - application/json null
+2025-07-31 10:36:29.457 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:36:29.469 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.ReportesController.ObtenerDashboardFinanciero (NexusFinance.API)'
+2025-07-31 10:36:29.492 -05:00 [INF] Route matched with {action = "ObtenerDashboardFinanciero", controller = "Reportes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NexusFinance.API.Models.DTOs.DashboardFinancieroResponseDTO]] ObtenerDashboardFinanciero(System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.ReportesController (NexusFinance.API).
+2025-07-31 10:36:29.505 -05:00 [INF] Obteniendo dashboard financiero para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:29.513 -05:00 [INF] Obteniendo dashboard financiero para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:29.774 -05:00 [INF] Dashboard financiero obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:29.776 -05:00 [INF] Executing OkObjectResult, writing value of type 'NexusFinance.API.Models.DTOs.DashboardFinancieroResponseDTO'.
+2025-07-31 10:36:29.794 -05:00 [INF] Executed action NexusFinance.API.Controllers.ReportesController.ObtenerDashboardFinanciero (NexusFinance.API) in 299.4012ms
+2025-07-31 10:36:29.796 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.ReportesController.ObtenerDashboardFinanciero (NexusFinance.API)'
+2025-07-31 10:36:29.798 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Reportes/dashboard-financiero - application/json null
+2025-07-31 10:36:29.799 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Reportes/dashboard-financiero - 200 null application/json; charset=utf-8 347.7064ms
+2025-07-31 10:36:29.808 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:36:29.821 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.ReportesController.ObtenerDashboardFinanciero (NexusFinance.API)'
+2025-07-31 10:36:29.823 -05:00 [INF] Route matched with {action = "ObtenerDashboardFinanciero", controller = "Reportes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NexusFinance.API.Models.DTOs.DashboardFinancieroResponseDTO]] ObtenerDashboardFinanciero(System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.ReportesController (NexusFinance.API).
+2025-07-31 10:36:29.825 -05:00 [INF] Obteniendo dashboard financiero para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:29.826 -05:00 [INF] Obteniendo dashboard financiero para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:29.935 -05:00 [INF] Dashboard financiero obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:29.937 -05:00 [INF] Executing OkObjectResult, writing value of type 'NexusFinance.API.Models.DTOs.DashboardFinancieroResponseDTO'.
+2025-07-31 10:36:29.939 -05:00 [INF] Executed action NexusFinance.API.Controllers.ReportesController.ObtenerDashboardFinanciero (NexusFinance.API) in 114.4601ms
+2025-07-31 10:36:29.940 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.ReportesController.ObtenerDashboardFinanciero (NexusFinance.API)'
+2025-07-31 10:36:29.940 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Reportes/dashboard-financiero - 200 null application/json; charset=utf-8 142.6863ms
+2025-07-31 10:36:38.744 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Reportes/progreso-metas - null null
+2025-07-31 10:36:38.749 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:36:38.750 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Reportes/progreso-metas - 204 null null 6.2977ms
+2025-07-31 10:36:38.752 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Reportes/progreso-metas - application/json null
+2025-07-31 10:36:38.754 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:36:38.757 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.ReportesController.ObtenerProgresoMetas (NexusFinance.API)'
+2025-07-31 10:36:38.762 -05:00 [INF] Route matched with {action = "ObtenerProgresoMetas", controller = "Reportes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NexusFinance.API.Models.DTOs.ProgresoMetasResponseDTO]] ObtenerProgresoMetas(System.String) on controller NexusFinance.API.Controllers.ReportesController (NexusFinance.API).
+2025-07-31 10:36:38.767 -05:00 [INF] Obteniendo progreso de metas para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:38.770 -05:00 [INF] Obteniendo progreso de metas para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:38.936 -05:00 [INF] Progreso de metas obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:38.939 -05:00 [INF] Executing OkObjectResult, writing value of type 'NexusFinance.API.Models.DTOs.ProgresoMetasResponseDTO'.
+2025-07-31 10:36:38.945 -05:00 [INF] Executed action NexusFinance.API.Controllers.ReportesController.ObtenerProgresoMetas (NexusFinance.API) in 180.1991ms
+2025-07-31 10:36:38.946 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.ReportesController.ObtenerProgresoMetas (NexusFinance.API)'
+2025-07-31 10:36:38.947 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Reportes/progreso-metas - 200 null application/json; charset=utf-8 194.6458ms
+2025-07-31 10:36:40.067 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Reportes/gastos-por-categoria?fechaInicio=2025-07-01&fechaFin=2025-07-31 - null null
+2025-07-31 10:36:40.071 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:36:40.073 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Reportes/gastos-por-categoria?fechaInicio=2025-07-01&fechaFin=2025-07-31 - 204 null null 5.7783ms
+2025-07-31 10:36:40.079 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Reportes/gastos-por-categoria?fechaInicio=2025-07-01&fechaFin=2025-07-31 - application/json null
+2025-07-31 10:36:40.083 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:36:40.084 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.ReportesController.ObtenerGastosPorCategoria (NexusFinance.API)'
+2025-07-31 10:36:40.090 -05:00 [INF] Route matched with {action = "ObtenerGastosPorCategoria", controller = "Reportes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NexusFinance.API.Models.DTOs.GastosPorCategoriaResponseDTO]] ObtenerGastosPorCategoria(System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime], System.Nullable`1[System.Guid]) on controller NexusFinance.API.Controllers.ReportesController (NexusFinance.API).
+2025-07-31 10:36:40.117 -05:00 [INF] Obteniendo gastos por categoría para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:40.121 -05:00 [INF] Obteniendo gastos por categoría para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:40.300 -05:00 [INF] Gastos por categoría obtenidos exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:40.304 -05:00 [INF] Executing OkObjectResult, writing value of type 'NexusFinance.API.Models.DTOs.GastosPorCategoriaResponseDTO'.
+2025-07-31 10:36:40.308 -05:00 [INF] Executed action NexusFinance.API.Controllers.ReportesController.ObtenerGastosPorCategoria (NexusFinance.API) in 206.958ms
+2025-07-31 10:36:40.310 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.ReportesController.ObtenerGastosPorCategoria (NexusFinance.API)'
+2025-07-31 10:36:40.311 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Reportes/gastos-por-categoria?fechaInicio=2025-07-01&fechaFin=2025-07-31 - 200 null application/json; charset=utf-8 232.3356ms
+2025-07-31 10:36:40.510 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Reportes/dashboard-financiero?fechaInicio=2025-07-01&fechaFin=2025-07-31 - null null
+2025-07-31 10:36:40.516 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:36:40.517 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Reportes/dashboard-financiero?fechaInicio=2025-07-01&fechaFin=2025-07-31 - 204 null null 6.5574ms
+2025-07-31 10:36:40.520 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Reportes/dashboard-financiero?fechaInicio=2025-07-01&fechaFin=2025-07-31 - application/json null
+2025-07-31 10:36:40.522 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:36:40.523 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.ReportesController.ObtenerDashboardFinanciero (NexusFinance.API)'
+2025-07-31 10:36:40.525 -05:00 [INF] Route matched with {action = "ObtenerDashboardFinanciero", controller = "Reportes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NexusFinance.API.Models.DTOs.DashboardFinancieroResponseDTO]] ObtenerDashboardFinanciero(System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.ReportesController (NexusFinance.API).
+2025-07-31 10:36:40.528 -05:00 [INF] Obteniendo dashboard financiero para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:40.530 -05:00 [INF] Obteniendo dashboard financiero para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:40.645 -05:00 [INF] Dashboard financiero obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:40.648 -05:00 [INF] Executing OkObjectResult, writing value of type 'NexusFinance.API.Models.DTOs.DashboardFinancieroResponseDTO'.
+2025-07-31 10:36:40.652 -05:00 [INF] Executed action NexusFinance.API.Controllers.ReportesController.ObtenerDashboardFinanciero (NexusFinance.API) in 125.0505ms
+2025-07-31 10:36:40.654 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.ReportesController.ObtenerDashboardFinanciero (NexusFinance.API)'
+2025-07-31 10:36:40.655 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Reportes/dashboard-financiero?fechaInicio=2025-07-01&fechaFin=2025-07-31 - 200 null application/json; charset=utf-8 135.2026ms
+2025-07-31 10:36:42.027 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Reportes/dashboard-financiero?fechaInicio=2025-07-01&fechaFin=2025-07-31 - application/json null
+2025-07-31 10:36:42.032 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:36:42.033 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.ReportesController.ObtenerDashboardFinanciero (NexusFinance.API)'
+2025-07-31 10:36:42.034 -05:00 [INF] Route matched with {action = "ObtenerDashboardFinanciero", controller = "Reportes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NexusFinance.API.Models.DTOs.DashboardFinancieroResponseDTO]] ObtenerDashboardFinanciero(System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.ReportesController (NexusFinance.API).
+2025-07-31 10:36:42.036 -05:00 [INF] Obteniendo dashboard financiero para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:42.036 -05:00 [INF] Obteniendo dashboard financiero para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:42.147 -05:00 [INF] Dashboard financiero obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:36:42.149 -05:00 [INF] Executing OkObjectResult, writing value of type 'NexusFinance.API.Models.DTOs.DashboardFinancieroResponseDTO'.
+2025-07-31 10:36:42.152 -05:00 [INF] Executed action NexusFinance.API.Controllers.ReportesController.ObtenerDashboardFinanciero (NexusFinance.API) in 117.5116ms
+2025-07-31 10:36:42.153 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.ReportesController.ObtenerDashboardFinanciero (NexusFinance.API)'
+2025-07-31 10:36:42.154 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Reportes/dashboard-financiero?fechaInicio=2025-07-01&fechaFin=2025-07-31 - 200 null application/json; charset=utf-8 126.7049ms
+2025-07-31 10:40:14.605 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - null null
+2025-07-31 10:40:14.606 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - null null
+2025-07-31 10:40:14.608 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:40:14.611 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:40:14.612 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - 204 null null 6.1474ms
+2025-07-31 10:40:14.614 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - 204 null null 7.2488ms
+2025-07-31 10:40:14.624 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - application/json null
+2025-07-31 10:40:14.631 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:40:14.640 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API)'
+2025-07-31 10:40:14.642 -05:00 [INF] Route matched with {action = "ObtenerDashboardCompleto", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NexusFinance.API.Models.DTOs.DashboardCompletoDTO]] ObtenerDashboardCompleto(System.Guid) on controller NexusFinance.API.Controllers.DashboardController (NexusFinance.API).
+2025-07-31 10:40:14.647 -05:00 [INF] Solicitando dashboard completo para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:40:14.653 -05:00 [INF] Obteniendo dashboard completo para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:40:14.655 -05:00 [INF] Obteniendo estadísticas generales...
+2025-07-31 10:40:14.657 -05:00 [INF] Ejecutando SP de estadísticas generales para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:40:14.769 -05:00 [INF] Obteniendo gastos por categoría...
+2025-07-31 10:40:14.772 -05:00 [INF] Ejecutando SP de transacciones por categoría para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", tipo: gasto
+2025-07-31 10:40:14.882 -05:00 [INF] Obteniendo ingresos por categoría...
+2025-07-31 10:40:14.888 -05:00 [INF] Ejecutando SP de transacciones por categoría para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", tipo: ingreso
+2025-07-31 10:40:15.004 -05:00 [INF] Obteniendo tendencias mensuales...
+2025-07-31 10:40:15.005 -05:00 [INF] Ejecutando SP de tendencias mensuales para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:40:15.114 -05:00 [INF] Se obtuvieron 6 tendencias mensuales para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:40:15.118 -05:00 [INF] Obteniendo resumen de metas...
+2025-07-31 10:40:15.123 -05:00 [INF] Ejecutando SP de resumen de metas para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 5
+2025-07-31 10:40:15.233 -05:00 [INF] Se obtuvieron 2 metas para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:40:15.236 -05:00 [INF] Obteniendo resumen de cuentas...
+2025-07-31 10:40:15.237 -05:00 [INF] Ejecutando SP de resumen de cuentas para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 6
+2025-07-31 10:40:15.346 -05:00 [INF] Se obtuvieron 2 cuentas para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:40:15.349 -05:00 [INF] Obteniendo transacciones recientes...
+2025-07-31 10:40:15.350 -05:00 [INF] Ejecutando SP de transacciones recientes para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 10
+2025-07-31 10:40:15.457 -05:00 [INF] Se obtuvieron 9 transacciones recientes para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:40:15.458 -05:00 [INF] Dashboard completo obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:40:15.459 -05:00 [INF] Dashboard completo obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:40:15.461 -05:00 [INF] Executing OkObjectResult, writing value of type 'NexusFinance.API.Models.DTOs.DashboardCompletoDTO'.
+2025-07-31 10:40:15.465 -05:00 [INF] Executed action NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API) in 821.4529ms
+2025-07-31 10:40:15.467 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - application/json null
+2025-07-31 10:40:15.467 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API)'
+2025-07-31 10:40:15.469 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:40:15.471 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - 200 null application/json; charset=utf-8 846.8554ms
+2025-07-31 10:40:15.472 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API)'
+2025-07-31 10:40:15.475 -05:00 [INF] Route matched with {action = "ObtenerDashboardCompleto", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NexusFinance.API.Models.DTOs.DashboardCompletoDTO]] ObtenerDashboardCompleto(System.Guid) on controller NexusFinance.API.Controllers.DashboardController (NexusFinance.API).
+2025-07-31 10:40:15.476 -05:00 [INF] Solicitando dashboard completo para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:40:15.477 -05:00 [INF] Obteniendo dashboard completo para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:40:15.478 -05:00 [INF] Obteniendo estadísticas generales...
+2025-07-31 10:40:15.479 -05:00 [INF] Ejecutando SP de estadísticas generales para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:40:15.588 -05:00 [INF] Obteniendo gastos por categoría...
+2025-07-31 10:40:15.589 -05:00 [INF] Ejecutando SP de transacciones por categoría para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", tipo: gasto
+2025-07-31 10:40:15.696 -05:00 [INF] Obteniendo ingresos por categoría...
+2025-07-31 10:40:15.697 -05:00 [INF] Ejecutando SP de transacciones por categoría para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", tipo: ingreso
+2025-07-31 10:40:15.806 -05:00 [INF] Obteniendo tendencias mensuales...
+2025-07-31 10:40:15.806 -05:00 [INF] Ejecutando SP de tendencias mensuales para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:40:15.914 -05:00 [INF] Se obtuvieron 6 tendencias mensuales para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:40:15.916 -05:00 [INF] Obteniendo resumen de metas...
+2025-07-31 10:40:15.917 -05:00 [INF] Ejecutando SP de resumen de metas para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 5
+2025-07-31 10:40:16.024 -05:00 [INF] Se obtuvieron 2 metas para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:40:16.028 -05:00 [INF] Obteniendo resumen de cuentas...
+2025-07-31 10:40:16.029 -05:00 [INF] Ejecutando SP de resumen de cuentas para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 6
+2025-07-31 10:40:16.137 -05:00 [INF] Se obtuvieron 2 cuentas para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:40:16.141 -05:00 [INF] Obteniendo transacciones recientes...
+2025-07-31 10:40:16.141 -05:00 [INF] Ejecutando SP de transacciones recientes para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 10
+2025-07-31 10:40:16.249 -05:00 [INF] Se obtuvieron 9 transacciones recientes para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:40:16.252 -05:00 [INF] Dashboard completo obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:40:16.253 -05:00 [INF] Dashboard completo obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:40:16.255 -05:00 [INF] Executing OkObjectResult, writing value of type 'NexusFinance.API.Models.DTOs.DashboardCompletoDTO'.
+2025-07-31 10:40:16.256 -05:00 [INF] Executed action NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API) in 779.9865ms
+2025-07-31 10:40:16.258 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API)'
+2025-07-31 10:40:16.259 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - 200 null application/json; charset=utf-8 792.6251ms
+2025-07-31 10:40:42.136 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Transaccione/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?fechaInicio=2025-06-01T05%3A00%3A00.000Z&fechaFin=2025-08-01T04%3A59%3A59.999Z&pagina=1&tamanoPagina=100&ordenarPor=fecha_desc - null null
+2025-07-31 10:40:42.137 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Transaccione/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?fechaInicio=2025-06-01T05%3A00%3A00.000Z&fechaFin=2025-08-01T04%3A59%3A59.999Z&pagina=1&tamanoPagina=100&ordenarPor=fecha_desc - null null
+2025-07-31 10:40:42.143 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:40:42.145 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Transaccione/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?fechaInicio=2025-06-01T05%3A00%3A00.000Z&fechaFin=2025-08-01T04%3A59%3A59.999Z&pagina=1&tamanoPagina=100&ordenarPor=fecha_desc - 204 null null 8.8775ms
+2025-07-31 10:40:42.146 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:40:42.151 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Transaccione/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?fechaInicio=2025-06-01T05%3A00%3A00.000Z&fechaFin=2025-08-01T04%3A59%3A59.999Z&pagina=1&tamanoPagina=100&ordenarPor=fecha_desc - application/json null
+2025-07-31 10:40:42.152 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Transaccione/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?fechaInicio=2025-06-01T05%3A00%3A00.000Z&fechaFin=2025-08-01T04%3A59%3A59.999Z&pagina=1&tamanoPagina=100&ordenarPor=fecha_desc - 204 null null 15.3865ms
+2025-07-31 10:40:42.155 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:40:42.159 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.TransaccioneController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-31 10:40:42.173 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Transaccione"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.Nullable`1[System.Guid], System.Nullable`1[System.Guid], System.String, System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime], System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.Nullable`1[System.Boolean], Int32, Int32, System.String) on controller NexusFinance.API.Controllers.TransaccioneController (NexusFinance.API).
+2025-07-31 10:40:42.366 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NexusFinance.API.Models.DTOs.TransaccionResponseDTO, NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-31 10:40:42.401 -05:00 [INF] Executed action NexusFinance.API.Controllers.TransaccioneController.ObtenerPorUsuario (NexusFinance.API) in 226.182ms
+2025-07-31 10:40:42.403 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Transaccione/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?fechaInicio=2025-06-01T05%3A00%3A00.000Z&fechaFin=2025-08-01T04%3A59%3A59.999Z&pagina=1&tamanoPagina=100&ordenarPor=fecha_desc - application/json null
+2025-07-31 10:40:42.404 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.TransaccioneController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-31 10:40:42.408 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:40:42.410 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Transaccione/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?fechaInicio=2025-06-01T05%3A00%3A00.000Z&fechaFin=2025-08-01T04%3A59%3A59.999Z&pagina=1&tamanoPagina=100&ordenarPor=fecha_desc - 200 null application/json; charset=utf-8 258.8002ms
+2025-07-31 10:40:42.416 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.TransaccioneController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-31 10:40:42.425 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Transaccione"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.Nullable`1[System.Guid], System.Nullable`1[System.Guid], System.String, System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime], System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], System.String, System.Nullable`1[System.Boolean], Int32, Int32, System.String) on controller NexusFinance.API.Controllers.TransaccioneController (NexusFinance.API).
+2025-07-31 10:40:42.548 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NexusFinance.API.Models.DTOs.TransaccionResponseDTO, NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-31 10:40:42.550 -05:00 [INF] Executed action NexusFinance.API.Controllers.TransaccioneController.ObtenerPorUsuario (NexusFinance.API) in 122.2973ms
+2025-07-31 10:40:42.554 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.TransaccioneController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-31 10:40:42.556 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Transaccione/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?fechaInicio=2025-06-01T05%3A00%3A00.000Z&fechaFin=2025-08-01T04%3A59%3A59.999Z&pagina=1&tamanoPagina=100&ordenarPor=fecha_desc - 200 null application/json; charset=utf-8 152.1685ms
+2025-07-31 10:41:03.856 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Reportes/dashboard-financiero - null null
+2025-07-31 10:41:03.863 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:41:03.865 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Reportes/dashboard-financiero - 204 null null 8.7672ms
+2025-07-31 10:41:03.868 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Reportes/dashboard-financiero - application/json null
+2025-07-31 10:41:03.870 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:41:03.871 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.ReportesController.ObtenerDashboardFinanciero (NexusFinance.API)'
+2025-07-31 10:41:03.872 -05:00 [INF] Route matched with {action = "ObtenerDashboardFinanciero", controller = "Reportes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NexusFinance.API.Models.DTOs.DashboardFinancieroResponseDTO]] ObtenerDashboardFinanciero(System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.ReportesController (NexusFinance.API).
+2025-07-31 10:41:03.875 -05:00 [INF] Obteniendo dashboard financiero para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:41:03.876 -05:00 [INF] Obteniendo dashboard financiero para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:41:03.988 -05:00 [INF] Dashboard financiero obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:41:03.994 -05:00 [INF] Executing OkObjectResult, writing value of type 'NexusFinance.API.Models.DTOs.DashboardFinancieroResponseDTO'.
+2025-07-31 10:41:04.002 -05:00 [INF] Executed action NexusFinance.API.Controllers.ReportesController.ObtenerDashboardFinanciero (NexusFinance.API) in 126.9648ms
+2025-07-31 10:41:04.004 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Reportes/dashboard-financiero - application/json null
+2025-07-31 10:41:04.006 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.ReportesController.ObtenerDashboardFinanciero (NexusFinance.API)'
+2025-07-31 10:41:04.014 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Reportes/dashboard-financiero - 200 null application/json; charset=utf-8 146.5641ms
+2025-07-31 10:41:04.013 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:41:04.018 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.ReportesController.ObtenerDashboardFinanciero (NexusFinance.API)'
+2025-07-31 10:41:04.019 -05:00 [INF] Route matched with {action = "ObtenerDashboardFinanciero", controller = "Reportes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NexusFinance.API.Models.DTOs.DashboardFinancieroResponseDTO]] ObtenerDashboardFinanciero(System.Nullable`1[System.DateTime], System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.ReportesController (NexusFinance.API).
+2025-07-31 10:41:04.020 -05:00 [INF] Obteniendo dashboard financiero para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:41:04.021 -05:00 [INF] Obteniendo dashboard financiero para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:41:04.130 -05:00 [INF] Dashboard financiero obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:41:04.132 -05:00 [INF] Executing OkObjectResult, writing value of type 'NexusFinance.API.Models.DTOs.DashboardFinancieroResponseDTO'.
+2025-07-31 10:41:04.133 -05:00 [INF] Executed action NexusFinance.API.Controllers.ReportesController.ObtenerDashboardFinanciero (NexusFinance.API) in 112.5093ms
+2025-07-31 10:41:04.134 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.ReportesController.ObtenerDashboardFinanciero (NexusFinance.API)'
+2025-07-31 10:41:04.135 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Reportes/dashboard-financiero - 200 null application/json; charset=utf-8 131.5994ms
+2025-07-31 10:41:24.138 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/PlanesVacacione/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true&ordenarPor=fecha_inicio - null null
+2025-07-31 10:41:24.139 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/PlanesVacacione/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true&ordenarPor=fecha_inicio - null null
+2025-07-31 10:41:24.146 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:41:24.146 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:41:24.147 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/PlanesVacacione/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true&ordenarPor=fecha_inicio - 204 null null 8.2774ms
+2025-07-31 10:41:24.148 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/PlanesVacacione/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true&ordenarPor=fecha_inicio - 204 null null 9.3095ms
+2025-07-31 10:41:24.153 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/PlanesVacacione/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true&ordenarPor=fecha_inicio - application/json null
+2025-07-31 10:41:24.156 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:41:24.157 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PlanesVacacioneController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-31 10:41:24.161 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "PlanesVacacione"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.String) on controller NexusFinance.API.Controllers.PlanesVacacioneController (NexusFinance.API).
+2025-07-31 10:41:24.322 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NexusFinance.API.Models.Entities.PlanesVacacione, NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-31 10:41:24.401 -05:00 [INF] Executed action NexusFinance.API.Controllers.PlanesVacacioneController.ObtenerPorUsuario (NexusFinance.API) in 237.6015ms
+2025-07-31 10:41:24.403 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PlanesVacacioneController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-31 10:41:24.404 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/PlanesVacacione/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true&ordenarPor=fecha_inicio - application/json null
+2025-07-31 10:41:24.406 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/PlanesVacacione/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true&ordenarPor=fecha_inicio - 200 null application/json; charset=utf-8 253.0283ms
+2025-07-31 10:41:24.410 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:41:24.418 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PlanesVacacioneController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-31 10:41:24.419 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "PlanesVacacione"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.String) on controller NexusFinance.API.Controllers.PlanesVacacioneController (NexusFinance.API).
+2025-07-31 10:41:24.530 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NexusFinance.API.Models.Entities.PlanesVacacione, NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-31 10:41:24.537 -05:00 [INF] Executed action NexusFinance.API.Controllers.PlanesVacacioneController.ObtenerPorUsuario (NexusFinance.API) in 116.1879ms
+2025-07-31 10:41:24.540 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PlanesVacacioneController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-31 10:41:24.544 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/PlanesVacacione/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true&ordenarPor=fecha_inicio - 200 null application/json; charset=utf-8 140.1416ms
+2025-07-31 10:43:46.391 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - null null
+2025-07-31 10:43:46.396 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:43:46.397 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - 204 null null 6.4077ms
+2025-07-31 10:43:46.400 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - application/json 52
+2025-07-31 10:43:46.403 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:43:46.404 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-31 10:43:46.406 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-31 10:43:47.291 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType17`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType18`6[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-31 10:43:47.294 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 886.9227ms
+2025-07-31 10:43:47.295 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-31 10:43:47.296 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - 200 null application/json; charset=utf-8 896.2129ms
+2025-07-31 10:43:48.382 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - null null
+2025-07-31 10:43:48.385 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - null null
+2025-07-31 10:43:48.386 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:43:48.388 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:43:48.389 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - 204 null null 6.8569ms
+2025-07-31 10:43:48.390 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - 204 null null 4.6262ms
+2025-07-31 10:43:48.404 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - application/json null
+2025-07-31 10:43:48.408 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:43:48.409 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API)'
+2025-07-31 10:43:48.411 -05:00 [INF] Route matched with {action = "ObtenerDashboardCompleto", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NexusFinance.API.Models.DTOs.DashboardCompletoDTO]] ObtenerDashboardCompleto(System.Guid) on controller NexusFinance.API.Controllers.DashboardController (NexusFinance.API).
+2025-07-31 10:43:48.414 -05:00 [INF] Solicitando dashboard completo para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:43:48.416 -05:00 [INF] Obteniendo dashboard completo para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:43:48.417 -05:00 [INF] Obteniendo estadísticas generales...
+2025-07-31 10:43:48.417 -05:00 [INF] Ejecutando SP de estadísticas generales para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:43:48.529 -05:00 [INF] Obteniendo gastos por categoría...
+2025-07-31 10:43:48.530 -05:00 [INF] Ejecutando SP de transacciones por categoría para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", tipo: gasto
+2025-07-31 10:43:48.644 -05:00 [INF] Obteniendo ingresos por categoría...
+2025-07-31 10:43:48.645 -05:00 [INF] Ejecutando SP de transacciones por categoría para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", tipo: ingreso
+2025-07-31 10:43:48.756 -05:00 [INF] Obteniendo tendencias mensuales...
+2025-07-31 10:43:48.757 -05:00 [INF] Ejecutando SP de tendencias mensuales para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:43:48.864 -05:00 [INF] Se obtuvieron 6 tendencias mensuales para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:43:48.865 -05:00 [INF] Obteniendo resumen de metas...
+2025-07-31 10:43:48.866 -05:00 [INF] Ejecutando SP de resumen de metas para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 5
+2025-07-31 10:43:48.974 -05:00 [INF] Se obtuvieron 2 metas para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:43:48.975 -05:00 [INF] Obteniendo resumen de cuentas...
+2025-07-31 10:43:48.976 -05:00 [INF] Ejecutando SP de resumen de cuentas para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 6
+2025-07-31 10:43:49.084 -05:00 [INF] Se obtuvieron 2 cuentas para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:43:49.085 -05:00 [INF] Obteniendo transacciones recientes...
+2025-07-31 10:43:49.086 -05:00 [INF] Ejecutando SP de transacciones recientes para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 10
+2025-07-31 10:43:49.202 -05:00 [INF] Se obtuvieron 9 transacciones recientes para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:43:49.205 -05:00 [INF] Dashboard completo obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:43:49.212 -05:00 [INF] Dashboard completo obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:43:49.217 -05:00 [INF] Executing OkObjectResult, writing value of type 'NexusFinance.API.Models.DTOs.DashboardCompletoDTO'.
+2025-07-31 10:43:49.219 -05:00 [INF] Executed action NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API) in 805.6041ms
+2025-07-31 10:43:49.221 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API)'
+2025-07-31 10:43:49.221 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - application/json null
+2025-07-31 10:43:49.222 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - 200 null application/json; charset=utf-8 818.0643ms
+2025-07-31 10:43:49.252 -05:00 [INF] CORS policy execution successful.
+2025-07-31 10:43:49.265 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API)'
+2025-07-31 10:43:49.270 -05:00 [INF] Route matched with {action = "ObtenerDashboardCompleto", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NexusFinance.API.Models.DTOs.DashboardCompletoDTO]] ObtenerDashboardCompleto(System.Guid) on controller NexusFinance.API.Controllers.DashboardController (NexusFinance.API).
+2025-07-31 10:43:49.273 -05:00 [INF] Solicitando dashboard completo para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:43:49.274 -05:00 [INF] Obteniendo dashboard completo para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:43:49.275 -05:00 [INF] Obteniendo estadísticas generales...
+2025-07-31 10:43:49.277 -05:00 [INF] Ejecutando SP de estadísticas generales para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:43:49.390 -05:00 [INF] Obteniendo gastos por categoría...
+2025-07-31 10:43:49.391 -05:00 [INF] Ejecutando SP de transacciones por categoría para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", tipo: gasto
+2025-07-31 10:43:49.506 -05:00 [INF] Obteniendo ingresos por categoría...
+2025-07-31 10:43:49.508 -05:00 [INF] Ejecutando SP de transacciones por categoría para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", tipo: ingreso
+2025-07-31 10:43:49.639 -05:00 [INF] Obteniendo tendencias mensuales...
+2025-07-31 10:43:49.640 -05:00 [INF] Ejecutando SP de tendencias mensuales para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:43:49.764 -05:00 [INF] Se obtuvieron 6 tendencias mensuales para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:43:49.767 -05:00 [INF] Obteniendo resumen de metas...
+2025-07-31 10:43:49.769 -05:00 [INF] Ejecutando SP de resumen de metas para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 5
+2025-07-31 10:43:49.878 -05:00 [INF] Se obtuvieron 2 metas para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:43:49.880 -05:00 [INF] Obteniendo resumen de cuentas...
+2025-07-31 10:43:49.882 -05:00 [INF] Ejecutando SP de resumen de cuentas para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 6
+2025-07-31 10:43:50.008 -05:00 [INF] Se obtuvieron 2 cuentas para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:43:50.010 -05:00 [INF] Obteniendo transacciones recientes...
+2025-07-31 10:43:50.012 -05:00 [INF] Ejecutando SP de transacciones recientes para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02", límite: 10
+2025-07-31 10:43:50.121 -05:00 [INF] Se obtuvieron 9 transacciones recientes para el usuario "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:43:50.124 -05:00 [INF] Dashboard completo obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:43:50.126 -05:00 [INF] Dashboard completo obtenido exitosamente para usuario: "8135ebd9-ba4d-4197-896f-ea4a9d9f1d02"
+2025-07-31 10:43:50.128 -05:00 [INF] Executing OkObjectResult, writing value of type 'NexusFinance.API.Models.DTOs.DashboardCompletoDTO'.
+2025-07-31 10:43:50.131 -05:00 [INF] Executed action NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API) in 859.2006ms
+2025-07-31 10:43:50.134 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.DashboardController.ObtenerDashboardCompleto (NexusFinance.API)'
+2025-07-31 10:43:50.136 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Dashboard/completo/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02 - 200 null application/json; charset=utf-8 914.7608ms

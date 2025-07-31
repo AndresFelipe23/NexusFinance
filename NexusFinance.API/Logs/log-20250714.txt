@@ -1,0 +1,313 @@
+2025-07-14 21:17:19.121 -05:00 [INF] User profile is available. Using 'C:\Users\57315\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-14 21:17:20.009 -05:00 [INF] Now listening on: http://localhost:5232
+2025-07-14 21:17:20.022 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-14 21:17:20.026 -05:00 [INF] Hosting environment: Development
+2025-07-14 21:17:20.031 -05:00 [INF] Content root path: C:\Users\57315\Documents\AndresEspitia\NexusFinance\NexusFinance.API
+2025-07-14 21:17:31.139 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/ - null null
+2025-07-14 21:17:31.287 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-07-14 21:17:31.462 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/ - 404 0 null 328.0232ms
+2025-07-14 21:17:31.483 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5232/, Response status code: 404
+2025-07-14 21:17:42.071 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger - null null
+2025-07-14 21:17:42.084 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger - 301 0 null 12.9916ms
+2025-07-14 21:17:42.093 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger/index.html - null null
+2025-07-14 21:17:42.356 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger/index.html - 200 null text/html;charset=utf-8 262.9482ms
+2025-07-14 21:17:42.413 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger/swagger-ui.css - null null
+2025-07-14 21:17:42.421 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger/index.css - null null
+2025-07-14 21:17:42.421 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger/swagger-ui-standalone-preset.js - null null
+2025-07-14 21:17:42.421 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger/index.js - null null
+2025-07-14 21:17:42.422 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger/swagger-ui-bundle.js - null null
+2025-07-14 21:17:42.443 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger/index.js - 200 null application/javascript;charset=utf-8 21.1555ms
+2025-07-14 21:17:42.449 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger/index.css - 200 202 text/css 28.1967ms
+2025-07-14 21:17:42.467 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 45.0928ms
+2025-07-14 21:17:42.467 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger/swagger-ui.css - 200 155175 text/css 53.2014ms
+2025-07-14 21:17:42.502 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger/swagger-ui-bundle.js - 200 1485750 text/javascript 80.1274ms
+2025-07-14 21:17:42.937 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger/v1/swagger.json - null null
+2025-07-14 21:17:42.998 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger/favicon-32x32.png - null null
+2025-07-14 21:17:43.006 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger/favicon-32x32.png - 200 628 image/png 7.1569ms
+2025-07-14 21:17:43.361 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 423.9713ms
+2025-07-14 21:18:45.702 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/Usuarios/registro - application/json 169
+2025-07-14 21:18:45.715 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Registrar (NexusFinance.API)'
+2025-07-14 21:18:45.792 -05:00 [INF] Route matched with {action = "Registrar", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registrar(NexusFinance.API.Models.DTOs.RegistroUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-14 21:18:45.826 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Registrar (NexusFinance.API) in 9.0051ms
+2025-07-14 21:18:45.840 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Registrar (NexusFinance.API)'
+2025-07-14 21:18:45.848 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'NexusFinance.API.Services.UsuarioService' while attempting to activate 'NexusFinance.API.Controllers.UsuariosController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-14 21:18:45.934 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/Usuarios/registro - 500 null text/plain; charset=utf-8 231.9397ms
+2025-07-14 21:21:33.351 -05:00 [INF] Application is shutting down...
+2025-07-14 21:21:49.196 -05:00 [INF] User profile is available. Using 'C:\Users\57315\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-14 21:21:49.514 -05:00 [INF] Now listening on: http://localhost:5232
+2025-07-14 21:21:49.524 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-14 21:21:49.528 -05:00 [INF] Hosting environment: Development
+2025-07-14 21:21:49.531 -05:00 [INF] Content root path: C:\Users\57315\Documents\AndresEspitia\NexusFinance\NexusFinance.API
+2025-07-14 21:21:52.020 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger/index.html - null null
+2025-07-14 21:21:52.226 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger/index.html - 200 null text/html;charset=utf-8 206.5227ms
+2025-07-14 21:21:52.657 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger/v1/swagger.json - null null
+2025-07-14 21:21:52.878 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 221.5178ms
+2025-07-14 21:23:16.127 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/Usuarios/registro - application/json 168
+2025-07-14 21:23:16.153 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-07-14 21:23:16.246 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Registrar (NexusFinance.API)'
+2025-07-14 21:23:16.328 -05:00 [INF] Route matched with {action = "Registrar", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registrar(NexusFinance.API.Models.DTOs.RegistroUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-14 21:23:19.501 -05:00 [INF] Executing OkObjectResult, writing value of type 'Dapper.SqlMapper+DapperRow'.
+2025-07-14 21:23:19.587 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Registrar (NexusFinance.API) in 3246.8186ms
+2025-07-14 21:23:19.597 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Registrar (NexusFinance.API)'
+2025-07-14 21:23:19.610 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/Usuarios/registro - 200 null application/json; charset=utf-8 3482.5871ms
+2025-07-14 22:30:23.540 -05:00 [INF] Application is shutting down...
+2025-07-14 22:39:33.723 -05:00 [INF] User profile is available. Using 'C:\Users\57315\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-14 22:39:34.031 -05:00 [INF] Now listening on: http://localhost:5232
+2025-07-14 22:39:34.038 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-14 22:39:34.043 -05:00 [INF] Hosting environment: Development
+2025-07-14 22:39:34.046 -05:00 [INF] Content root path: C:\Users\57315\Documents\AndresEspitia\NexusFinance\NexusFinance.API
+2025-07-14 22:39:38.386 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger/index.html - null null
+2025-07-14 22:39:38.586 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger/index.html - 200 null text/html;charset=utf-8 202.5052ms
+2025-07-14 22:39:39.374 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger/v1/swagger.json - null null
+2025-07-14 22:39:39.738 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate Operation for action - NexusFinance.API.Controllers.DocumentosViajeController.SubirArchivo (NexusFinance.API). See inner exception
+ ---> Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Error reading parameter(s) for action NexusFinance.API.Controllers.DocumentosViajeController.SubirArchivo (NexusFinance.API) as [FromForm] attribute used with IFormFile. Please refer to https://github.com/domaindrivendev/Swashbuckle.AspNetCore/tree/master/docs/configure-and-customize-swaggergen.md#handle-forms-and-file-uploads for more information
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateParametersAsync(ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parameterGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateParametersAsync(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-14 22:39:39.810 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 437.5567ms
+2025-07-14 22:41:27.786 -05:00 [INF] Application is shutting down...
+2025-07-14 22:41:44.638 -05:00 [INF] User profile is available. Using 'C:\Users\57315\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-14 22:41:44.858 -05:00 [INF] Now listening on: http://localhost:5232
+2025-07-14 22:41:44.864 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-14 22:41:44.866 -05:00 [INF] Hosting environment: Development
+2025-07-14 22:41:44.867 -05:00 [INF] Content root path: C:\Users\57315\Documents\AndresEspitia\NexusFinance\NexusFinance.API
+2025-07-14 22:41:45.927 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger/index.html - null null
+2025-07-14 22:41:46.086 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger/index.html - 200 null text/html;charset=utf-8 162.8161ms
+2025-07-14 22:41:46.291 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger/v1/swagger.json - null null
+2025-07-14 22:41:46.850 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 559.5833ms
+2025-07-14 23:23:04.090 -05:00 [INF] Application is shutting down...
+2025-07-14 23:23:22.545 -05:00 [INF] User profile is available. Using 'C:\Users\57315\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-14 23:23:23.197 -05:00 [INF] Now listening on: http://localhost:5232
+2025-07-14 23:23:23.203 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-14 23:23:23.206 -05:00 [INF] Hosting environment: Development
+2025-07-14 23:23:23.209 -05:00 [INF] Content root path: C:\Users\57315\Documents\AndresEspitia\NexusFinance\NexusFinance.API
+2025-07-14 23:23:24.875 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger/index.html - null null
+2025-07-14 23:23:25.052 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger/index.html - 200 null text/html;charset=utf-8 179.9358ms
+2025-07-14 23:23:25.635 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger/v1/swagger.json - null null
+2025-07-14 23:23:26.358 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 723.7713ms
+2025-07-14 23:25:32.588 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/usuarios/login - null null
+2025-07-14 23:25:32.645 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:25:32.654 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/usuarios/login - 204 null null 69.1892ms
+2025-07-14 23:25:32.664 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/usuarios/login - application/json 18
+2025-07-14 23:25:32.682 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:25:32.704 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-07-14 23:25:32.827 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:25:32.946 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-14 23:25:33.118 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-14 23:25:33.209 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 244.7772ms
+2025-07-14 23:25:33.215 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:25:33.220 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/usuarios/login - 400 null application/problem+json; charset=utf-8 556.0157ms
+2025-07-14 23:27:40.177 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/usuarios/login - null null
+2025-07-14 23:27:40.190 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:27:40.193 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/usuarios/login - 204 null null 15.3444ms
+2025-07-14 23:27:40.204 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/usuarios/login - application/json 2
+2025-07-14 23:27:40.210 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:27:40.216 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:27:40.227 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-14 23:27:40.272 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-14 23:27:40.276 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 42.0415ms
+2025-07-14 23:27:40.281 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:27:40.288 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/usuarios/login - 400 null application/problem+json; charset=utf-8 83.9629ms
+2025-07-14 23:27:58.021 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/usuarios/login - null null
+2025-07-14 23:27:58.033 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:27:58.036 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/usuarios/login - 204 null null 14.6073ms
+2025-07-14 23:27:58.041 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/usuarios/login - application/json 2
+2025-07-14 23:27:58.043 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:27:58.045 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:27:58.046 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-14 23:27:58.049 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-14 23:27:58.050 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 2.6262ms
+2025-07-14 23:27:58.051 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:27:58.052 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/usuarios/login - 400 null application/problem+json; charset=utf-8 11.2086ms
+2025-07-14 23:29:32.031 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - application/json 61
+2025-07-14 23:29:32.037 -05:00 [INF] CORS policy execution failed.
+2025-07-14 23:29:32.038 -05:00 [INF] Request origin http://localhost:5232 does not have permission to access the resource.
+2025-07-14 23:29:32.066 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:29:32.068 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-14 23:29:33.939 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 1868.7094ms
+2025-07-14 23:29:33.946 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:29:33.954 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha256', the key size must be greater than: '256' bits, key has '216' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(SecurityTokenDescriptor tokenDescriptor)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at NexusFinance.API.Controllers.UsuariosController.Login(LoginUsuarioDTO dto) in C:\Users\57315\Documents\AndresEspitia\NexusFinance\NexusFinance.API\Controllers\UsuariosController.cs:line 71
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-14 23:29:34.016 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - 500 null text/plain; charset=utf-8 1984.8452ms
+2025-07-14 23:30:40.106 -05:00 [INF] Application is shutting down...
+2025-07-14 23:30:50.362 -05:00 [INF] User profile is available. Using 'C:\Users\57315\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-14 23:30:50.560 -05:00 [INF] Now listening on: http://localhost:5232
+2025-07-14 23:30:50.565 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-14 23:30:50.568 -05:00 [INF] Hosting environment: Development
+2025-07-14 23:30:50.570 -05:00 [INF] Content root path: C:\Users\57315\Documents\AndresEspitia\NexusFinance\NexusFinance.API
+2025-07-14 23:30:57.249 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/usuarios/login - null null
+2025-07-14 23:30:57.301 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:30:57.314 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/usuarios/login - 204 null null 67.4647ms
+2025-07-14 23:30:57.329 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/usuarios/login - application/json 2
+2025-07-14 23:30:57.338 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:30:57.361 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-07-14 23:30:57.406 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:30:57.446 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-14 23:30:57.561 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-14 23:30:57.635 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 179.1495ms
+2025-07-14 23:30:57.638 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:30:57.640 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/usuarios/login - 400 null application/problem+json; charset=utf-8 311.836ms
+2025-07-14 23:31:11.644 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/usuarios/login - null null
+2025-07-14 23:31:11.650 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:31:11.651 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/usuarios/login - 204 null null 6.6766ms
+2025-07-14 23:31:11.653 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/usuarios/login - application/json 2
+2025-07-14 23:31:11.655 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:31:11.657 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:31:11.659 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-14 23:31:11.662 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-14 23:31:11.663 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 2.8969ms
+2025-07-14 23:31:11.664 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:31:11.665 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/usuarios/login - 400 null application/problem+json; charset=utf-8 12.0038ms
+2025-07-14 23:31:18.279 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger/index.html - null null
+2025-07-14 23:31:18.349 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger/index.html - 200 null text/html;charset=utf-8 69.3666ms
+2025-07-14 23:31:18.581 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger/v1/swagger.json - null null
+2025-07-14 23:31:18.767 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 185.6554ms
+2025-07-14 23:31:43.467 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - application/json 61
+2025-07-14 23:31:43.473 -05:00 [INF] CORS policy execution failed.
+2025-07-14 23:31:43.475 -05:00 [INF] Request origin http://localhost:5232 does not have permission to access the resource.
+2025-07-14 23:31:43.487 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:31:43.488 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-14 23:31:45.329 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`6[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-14 23:31:45.350 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 1857.596ms
+2025-07-14 23:31:45.355 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:31:45.358 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - 200 null application/json; charset=utf-8 1890.4357ms
+2025-07-14 23:33:09.212 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - null null
+2025-07-14 23:33:09.218 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:33:09.221 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - 204 null null 9.1026ms
+2025-07-14 23:33:09.227 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - application/json 2
+2025-07-14 23:33:09.232 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:33:09.235 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:33:09.237 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-14 23:33:09.244 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-14 23:33:09.247 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 5.7405ms
+2025-07-14 23:33:09.257 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:33:09.259 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - 400 null application/problem+json; charset=utf-8 32.5616ms
+2025-07-14 23:33:55.971 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/usuarios/login - null null
+2025-07-14 23:33:55.987 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:33:55.989 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/usuarios/login - 204 null null 18.0233ms
+2025-07-14 23:33:56.029 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/usuarios/login - application/json 2
+2025-07-14 23:33:56.038 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:33:56.050 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:33:56.057 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-14 23:33:56.064 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-14 23:33:56.068 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 7.0067ms
+2025-07-14 23:33:56.072 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:33:56.074 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/usuarios/login - 400 null application/problem+json; charset=utf-8 44.7406ms
+2025-07-14 23:34:30.378 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - null null
+2025-07-14 23:34:30.384 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:34:30.388 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - 204 null null 8.5686ms
+2025-07-14 23:34:30.394 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - application/json 2
+2025-07-14 23:34:30.398 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:34:30.401 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:34:30.402 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-14 23:34:30.405 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-14 23:34:30.407 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 3.2867ms
+2025-07-14 23:34:30.410 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:34:30.411 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - 400 null application/problem+json; charset=utf-8 17.1765ms
+2025-07-14 23:37:09.247 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - null null
+2025-07-14 23:37:09.254 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:37:09.259 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - 204 null null 11.0778ms
+2025-07-14 23:37:09.266 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - application/json 2
+2025-07-14 23:37:09.274 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:37:09.278 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:37:09.282 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-14 23:37:09.287 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-14 23:37:09.301 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 15.9168ms
+2025-07-14 23:37:09.319 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:37:09.327 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - 400 null application/problem+json; charset=utf-8 60.3029ms
+2025-07-14 23:39:33.859 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - null null
+2025-07-14 23:39:33.865 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:39:33.878 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - 204 null null 18.5812ms
+2025-07-14 23:39:33.896 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - application/json 2
+2025-07-14 23:39:33.901 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:39:33.932 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:39:33.934 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-14 23:39:34.060 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-14 23:39:34.069 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 121.9948ms
+2025-07-14 23:39:34.072 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:39:34.084 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - 400 null application/problem+json; charset=utf-8 187.3173ms
+2025-07-14 23:41:45.371 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - null null
+2025-07-14 23:41:45.380 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:41:45.384 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - 204 null null 11.7315ms
+2025-07-14 23:41:45.394 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - application/json 2
+2025-07-14 23:41:45.404 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:41:45.408 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:41:45.414 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-14 23:41:45.423 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-14 23:41:45.508 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 87.3315ms
+2025-07-14 23:41:45.513 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:41:45.515 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - 400 null application/problem+json; charset=utf-8 120.8466ms
+2025-07-14 23:43:35.763 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - null null
+2025-07-14 23:43:35.768 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:43:35.769 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - 204 null null 6.6633ms
+2025-07-14 23:43:35.774 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - application/json 2
+2025-07-14 23:43:35.778 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:43:35.780 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:43:35.782 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-14 23:43:35.785 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-14 23:43:35.786 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 2.555ms
+2025-07-14 23:43:35.788 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:43:35.789 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - 400 null application/problem+json; charset=utf-8 15.6232ms
+2025-07-14 23:43:44.389 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - null null
+2025-07-14 23:43:44.395 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:43:44.397 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - 204 null null 7.8724ms
+2025-07-14 23:43:44.403 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - application/json 2
+2025-07-14 23:43:44.407 -05:00 [INF] CORS policy execution successful.
+2025-07-14 23:43:44.409 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:43:44.411 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-14 23:43:44.415 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-14 23:43:44.424 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 10.2544ms
+2025-07-14 23:43:44.428 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-14 23:43:44.429 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - 400 null application/problem+json; charset=utf-8 26.5036ms

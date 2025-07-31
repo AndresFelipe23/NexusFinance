@@ -1,0 +1,288 @@
+/* Estilos específicos para generar PDFs optimizados */
+
+/* Clase para preparar elementos para PDF */
+.pdf-ready {
+  background-color: #ffffff !important;
+  box-shadow: none !important;
+  border-radius: 8px !important;
+  color: #000000 !important;
+}
+
+/* Optimizar tarjetas para PDF */
+.pdf-ready .bg-white {
+  background-color: #ffffff !important;
+  border: 1px solid #e5e7eb !important;
+}
+
+.pdf-ready .shadow-md,
+.pdf-ready .shadow-lg,
+.pdf-ready .shadow-sm {
+  box-shadow: none !important;
+  border: 1px solid #d1d5db !important;
+}
+
+/* Optimizar colores para impresión */
+.pdf-ready .text-gray-900 {
+  color: #111827 !important;
+}
+
+.pdf-ready .text-gray-600 {
+  color: #4b5563 !important;
+}
+
+.pdf-ready .text-gray-500 {
+  color: #6b7280 !important;
+}
+
+/* Mantener colores importantes para gráficos */
+.pdf-ready .text-blue-600,
+.pdf-ready .text-blue-700,
+.pdf-ready .text-blue-800 {
+  color: #1d4ed8 !important;
+}
+
+.pdf-ready .text-green-600,
+.pdf-ready .text-green-700,
+.pdf-ready .text-green-800 {
+  color: #059669 !important;
+}
+
+.pdf-ready .text-red-600,
+.pdf-ready .text-red-700,
+.pdf-ready .text-red-800 {
+  color: #dc2626 !important;
+}
+
+.pdf-ready .text-purple-600,
+.pdf-ready .text-purple-700,
+.pdf-ready .text-purple-800 {
+  color: #7c3aed !important;
+}
+
+.pdf-ready .text-orange-600,
+.pdf-ready .text-orange-700,
+.pdf-ready .text-orange-800 {
+  color: #ea580c !important;
+}
+
+.pdf-ready .text-yellow-600,
+.pdf-ready .text-yellow-700,
+.pdf-ready .text-yellow-800 {
+  color: #d97706 !important;
+}
+
+/* Optimizar fondos coloreados */
+.pdf-ready .bg-blue-50 {
+  background-color: #eff6ff !important;
+  border: 1px solid #dbeafe !important;
+}
+
+.pdf-ready .bg-green-50 {
+  background-color: #f0fdf4 !important;
+  border: 1px solid #dcfce7 !important;
+}
+
+.pdf-ready .bg-red-50 {
+  background-color: #fef2f2 !important;
+  border: 1px solid #fecaca !important;
+}
+
+.pdf-ready .bg-purple-50 {
+  background-color: #faf5ff !important;
+  border: 1px solid #e9d5ff !important;
+}
+
+.pdf-ready .bg-orange-50 {
+  background-color: #fff7ed !important;
+  border: 1px solid #fed7aa !important;
+}
+
+.pdf-ready .bg-yellow-50 {
+  background-color: #fffbeb !important;
+  border: 1px solid #fde68a !important;
+}
+
+.pdf-ready .bg-gray-50 {
+  background-color: #f9fafb !important;
+  border: 1px solid #f3f4f6 !important;
+}
+
+/* Optimizar barras de progreso para PDF */
+.pdf-ready .bg-blue-500 {
+  background-color: #3b82f6 !important;
+}
+
+.pdf-ready .bg-green-500 {
+  background-color: #10b981 !important;
+}
+
+.pdf-ready .bg-red-500 {
+  background-color: #ef4444 !important;
+}
+
+.pdf-ready .bg-yellow-500 {
+  background-color: #f59e0b !important;
+}
+
+.pdf-ready .bg-purple-500 {
+  background-color: #8b5cf6 !important;
+}
+
+/* Mejorar contraste para badges y etiquetas */
+.pdf-ready .bg-blue-100 {
+  background-color: #dbeafe !important;
+  border: 1px solid #93c5fd !important;
+}
+
+.pdf-ready .bg-green-100 {
+  background-color: #dcfce7 !important;
+  border: 1px solid #86efac !important;
+}
+
+.pdf-ready .bg-red-100 {
+  background-color: #fecaca !important;
+  border: 1px solid #fca5a5 !important;
+}
+
+.pdf-ready .bg-yellow-100 {
+  background-color: #fde68a !important;
+  border: 1px solid #fcd34d !important;
+}
+
+.pdf-ready .bg-purple-100 {
+  background-color: #e9d5ff !important;
+  border: 1px solid #c4b5fd !important;
+}
+
+.pdf-ready .bg-gray-100 {
+  background-color: #f3f4f6 !important;
+  border: 1px solid #d1d5db !important;
+}
+
+/* Mejorar tablas para PDF */
+.pdf-ready table {
+  border-collapse: collapse !important;
+  width: 100% !important;
+}
+
+.pdf-ready th,
+.pdf-ready td {
+  border: 1px solid #d1d5db !important;
+  padding: 8px !important;
+}
+
+.pdf-ready th {
+  background-color: #f9fafb !important;
+  font-weight: 600 !important;
+}
+
+/* Optimizar spacing para PDF */
+.pdf-ready .space-y-6 > * + * {
+  margin-top: 1.5rem !important;
+}
+
+.pdf-ready .space-y-4 > * + * {
+  margin-top: 1rem !important;
+}
+
+.pdf-ready .space-y-3 > * + * {
+  margin-top: 0.75rem !important;
+}
+
+.pdf-ready .space-y-2 > * + * {
+  margin-top: 0.5rem !important;
+}
+
+/* Asegurar que el texto sea legible */
+.pdf-ready * {
+  -webkit-print-color-adjust: exact !important;
+  print-color-adjust: exact !important;
+}
+
+/* Optimizar para diferentes tamaños de página */
+@media print {
+  .pdf-ready {
+    font-size: 12px !important;
+    line-height: 1.4 !important;
+  }
+  
+  .pdf-ready h1 {
+    font-size: 18px !important;
+    margin-top: 0 !important;
+  }
+  
+  .pdf-ready h2 {
+    font-size: 16px !important;
+  }
+  
+  .pdf-ready h3 {
+    font-size: 14px !important;
+  }
+  
+  .pdf-ready .text-2xl {
+    font-size: 20px !important;
+  }
+  
+  .pdf-ready .text-xl {
+    font-size: 16px !important;
+  }
+  
+  .pdf-ready .text-lg {
+    font-size: 14px !important;
+  }
+}
+
+/* Clase para ocultar elementos que no deben aparecer en PDF */
+.pdf-hide {
+  display: none !important;
+}
+
+/* Clase para elementos que solo deben aparecer en PDF */
+.pdf-only {
+  display: none;
+}
+
+.pdf-ready .pdf-only {
+  display: block !important;
+}
+
+/* Optimizar grids para PDF */
+.pdf-ready .grid {
+  display: grid !important;
+}
+
+.pdf-ready .grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+}
+
+.pdf-ready .grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+
+.pdf-ready .grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+}
+
+.pdf-ready .grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+}
+
+/* Asegurar que los iconos se vean bien en PDF */
+.pdf-ready svg {
+  width: 16px !important;
+  height: 16px !important;
+  flex-shrink: 0 !important;
+}
+
+/* Mejorar la apariencia de bordes redondeados */
+.pdf-ready .rounded-lg {
+  border-radius: 8px !important;
+}
+
+.pdf-ready .rounded-md {
+  border-radius: 6px !important;
+}
+
+.pdf-ready .rounded-full {
+  border-radius: 9999px !important;
+}

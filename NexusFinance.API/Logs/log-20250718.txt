@@ -1,0 +1,1136 @@
+2025-07-18 10:08:15.590 -05:00 [INF] User profile is available. Using 'C:\Users\57315\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 10:08:16.027 -05:00 [INF] Now listening on: http://localhost:5232
+2025-07-18 10:08:16.033 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 10:08:16.037 -05:00 [INF] Hosting environment: Development
+2025-07-18 10:08:16.038 -05:00 [INF] Content root path: C:\Users\57315\Documents\AndresEspitia\NexusFinance\NexusFinance.API
+2025-07-18 10:09:54.723 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/ - null null
+2025-07-18 10:09:54.829 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-07-18 10:09:54.876 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/ - 404 0 null 162.209ms
+2025-07-18 10:09:54.888 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5232/, Response status code: 404
+2025-07-18 10:10:01.546 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/swagger/v1/swagger.json - null null
+2025-07-18 10:10:01.764 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 218.3326ms
+2025-07-18 10:10:12.759 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - null null
+2025-07-18 10:10:12.764 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:10:12.767 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - 204 null null 8.2599ms
+2025-07-18 10:10:12.770 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - application/json 52
+2025-07-18 10:10:12.774 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:10:12.777 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-18 10:10:12.795 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-18 10:10:14.197 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`6[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 10:10:14.224 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 1424.6591ms
+2025-07-18 10:10:14.227 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-18 10:10:14.228 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - 200 null application/json; charset=utf-8 1458.5331ms
+2025-07-18 10:28:51.516 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Cuenta/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 10:28:51.516 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Cuenta/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 10:28:51.565 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:28:51.565 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:28:51.571 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Cuenta/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 58.7373ms
+2025-07-18 10:28:51.571 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Cuenta/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 58.736ms
+2025-07-18 10:28:51.583 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Cuenta/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 10:28:51.597 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:28:51.774 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.CuentaController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:28:51.806 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Cuenta"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, Boolean) on controller NexusFinance.API.Controllers.CuentaController (NexusFinance.API).
+2025-07-18 10:28:52.970 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 10:28:52.993 -05:00 [INF] Executed action NexusFinance.API.Controllers.CuentaController.ObtenerPorUsuario (NexusFinance.API) in 1186.1339ms
+2025-07-18 10:28:52.996 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Cuenta/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 10:28:52.997 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.CuentaController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:28:52.999 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:28:52.999 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Cuenta/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 200 null application/json; charset=utf-8 1416.7178ms
+2025-07-18 10:28:53.003 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.CuentaController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:28:53.004 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Cuenta"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, Boolean) on controller NexusFinance.API.Controllers.CuentaController (NexusFinance.API).
+2025-07-18 10:28:53.122 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 10:28:53.129 -05:00 [INF] Executed action NexusFinance.API.Controllers.CuentaController.ObtenerPorUsuario (NexusFinance.API) in 123.1903ms
+2025-07-18 10:28:53.131 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.CuentaController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:28:53.131 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Cuenta/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 200 null application/json; charset=utf-8 135.7808ms
+2025-07-18 10:34:03.096 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 10:34:03.096 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 10:34:03.101 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:34:03.112 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:34:03.112 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 16.4522ms
+2025-07-18 10:34:03.113 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 17.3593ms
+2025-07-18 10:34:03.121 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 10:34:03.124 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:34:03.133 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:34:03.150 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 10:34:03.308 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 10:34:03.310 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 155.0922ms
+2025-07-18 10:34:03.314 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:34:03.321 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 10:34:03.322 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 200.7451ms
+2025-07-18 10:34:03.323 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:34:03.334 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:34:03.336 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 10:34:03.445 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 10:34:03.447 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 108.5056ms
+2025-07-18 10:34:03.449 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:34:03.450 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 129.2092ms
+2025-07-18 10:34:11.781 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Cuenta/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 10:34:11.781 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Cuenta/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 10:34:11.786 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:34:11.788 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:34:11.789 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Cuenta/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 7.8198ms
+2025-07-18 10:34:11.790 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Cuenta/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 8.6266ms
+2025-07-18 10:34:11.798 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Cuenta/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 10:34:11.801 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:34:11.809 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.CuentaController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:34:11.811 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Cuenta"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, Boolean) on controller NexusFinance.API.Controllers.CuentaController (NexusFinance.API).
+2025-07-18 10:34:11.923 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 10:34:11.929 -05:00 [INF] Executed action NexusFinance.API.Controllers.CuentaController.ObtenerPorUsuario (NexusFinance.API) in 114.9874ms
+2025-07-18 10:34:11.932 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Cuenta/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 10:34:11.935 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.CuentaController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:34:11.937 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:34:11.941 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Cuenta/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 200 null application/json; charset=utf-8 142.5525ms
+2025-07-18 10:34:11.944 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.CuentaController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:34:11.947 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Cuenta"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, Boolean) on controller NexusFinance.API.Controllers.CuentaController (NexusFinance.API).
+2025-07-18 10:34:12.054 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 10:34:12.056 -05:00 [INF] Executed action NexusFinance.API.Controllers.CuentaController.ObtenerPorUsuario (NexusFinance.API) in 108.0886ms
+2025-07-18 10:34:12.057 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.CuentaController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:34:12.060 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Cuenta/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 200 null application/json; charset=utf-8 128.1379ms
+2025-07-18 10:34:17.012 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 10:34:17.012 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 10:34:17.017 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:34:17.019 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:34:17.020 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 8.1006ms
+2025-07-18 10:34:17.021 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 8.5769ms
+2025-07-18 10:34:17.030 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 10:34:17.031 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:34:17.032 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:34:17.033 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 10:34:17.143 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 10:34:17.149 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 114.3032ms
+2025-07-18 10:34:17.150 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 10:34:17.152 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:34:17.157 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:34:17.159 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 129.1359ms
+2025-07-18 10:34:17.161 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:34:17.164 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 10:34:17.280 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 10:34:17.284 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 118.9927ms
+2025-07-18 10:34:17.286 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:34:17.291 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 140.5176ms
+2025-07-18 10:46:05.418 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?periodo=Mensual&soloActivos=true - null null
+2025-07-18 10:46:05.437 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:46:05.442 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?periodo=Mensual&soloActivos=true - 204 null null 26.2778ms
+2025-07-18 10:46:05.448 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?periodo=Mensual&soloActivos=true - application/json null
+2025-07-18 10:46:05.457 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:46:05.480 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:46:05.485 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 10:46:06.140 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 10:46:06.147 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 659.4048ms
+2025-07-18 10:46:06.149 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:46:06.151 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?periodo=Mensual&soloActivos=true - 200 null application/json; charset=utf-8 702.3262ms
+2025-07-18 10:46:08.343 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 10:46:08.348 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:46:08.348 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 5.25ms
+2025-07-18 10:46:08.352 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 10:46:08.355 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:46:08.357 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:46:08.358 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 10:46:08.481 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 10:46:08.485 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 125.0315ms
+2025-07-18 10:46:08.488 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:46:08.489 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 137.0944ms
+2025-07-18 10:48:36.383 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - application/json 61
+2025-07-18 10:48:36.390 -05:00 [INF] CORS policy execution failed.
+2025-07-18 10:48:36.394 -05:00 [INF] Request origin http://localhost:5232 does not have permission to access the resource.
+2025-07-18 10:48:36.397 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-18 10:48:36.400 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-18 10:48:37.167 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`6[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 10:48:37.172 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 768.3183ms
+2025-07-18 10:48:37.173 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-18 10:48:37.174 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - 200 null application/json; charset=utf-8 790.8497ms
+2025-07-18 10:49:44.345 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135EBD9-BA4D-4197-896F-EA4A9D9F1D02?periodo=Mensual&soloActivos=true - null null
+2025-07-18 10:49:44.355 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-18 10:49:44.394 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-18 10:49:44.398 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135EBD9-BA4D-4197-896F-EA4A9D9F1D02?periodo=Mensual&soloActivos=true - 401 0 null 53.2765ms
+2025-07-18 10:50:02.966 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/5C7D2119-6A7F-4CD2-83B0-355C2F59AF73?incluirCategorias=true - null null
+2025-07-18 10:50:02.972 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-18 10:50:02.992 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-18 10:50:02.998 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/5C7D2119-6A7F-4CD2-83B0-355C2F59AF73?incluirCategorias=true - 401 0 null 31.4823ms
+2025-07-18 10:59:42.894 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 10:59:42.915 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:59:42.920 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 26.6213ms
+2025-07-18 10:59:42.926 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 10:59:42.931 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:59:42.954 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:59:42.962 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 10:59:43.612 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 10:59:43.620 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 654.5897ms
+2025-07-18 10:59:43.626 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:59:43.637 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 711.2678ms
+2025-07-18 10:59:49.203 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 10:59:49.213 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:59:49.215 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 11.4834ms
+2025-07-18 10:59:49.219 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 10:59:49.223 -05:00 [INF] CORS policy execution successful.
+2025-07-18 10:59:49.227 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:59:49.230 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 10:59:49.330 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 10:59:49.333 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 100.7857ms
+2025-07-18 10:59:49.336 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 10:59:49.338 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 118.3935ms
+2025-07-18 11:03:09.190 -05:00 [INF] Application is shutting down...
+2025-07-18 11:03:35.270 -05:00 [INF] User profile is available. Using 'C:\Users\57315\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 11:03:35.555 -05:00 [INF] Now listening on: http://localhost:5232
+2025-07-18 11:03:35.563 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 11:03:35.566 -05:00 [INF] Hosting environment: Development
+2025-07-18 11:03:35.569 -05:00 [INF] Content root path: C:\Users\57315\Documents\AndresEspitia\NexusFinance\NexusFinance.API
+2025-07-18 11:03:36.646 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 11:03:36.729 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:03:36.752 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 106.2238ms
+2025-07-18 11:03:36.776 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 11:03:36.794 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:03:36.838 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-07-18 11:03:37.024 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:03:37.073 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:03:38.358 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 11:03:38.520 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 1436.8794ms
+2025-07-18 11:03:38.524 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:03:38.530 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 1754.538ms
+2025-07-18 11:12:21.222 -05:00 [INF] Application is shutting down...
+2025-07-18 11:12:47.758 -05:00 [INF] User profile is available. Using 'C:\Users\57315\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 11:12:48.051 -05:00 [INF] Now listening on: http://localhost:5232
+2025-07-18 11:12:48.060 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 11:12:48.063 -05:00 [INF] Hosting environment: Development
+2025-07-18 11:12:48.064 -05:00 [INF] Content root path: C:\Users\57315\Documents\AndresEspitia\NexusFinance\NexusFinance.API
+2025-07-18 11:13:24.717 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 11:13:24.751 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:13:24.762 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 46.8153ms
+2025-07-18 11:13:24.770 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 11:13:24.778 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:13:24.799 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-07-18 11:13:24.918 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:13:24.949 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:13:25.826 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 11:13:25.910 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 952.5414ms
+2025-07-18 11:13:25.914 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:13:25.916 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 1147.0836ms
+2025-07-18 11:13:30.041 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 11:13:30.043 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 11:13:30.046 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:13:30.049 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:13:30.051 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 10.0178ms
+2025-07-18 11:13:30.058 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 14.7196ms
+2025-07-18 11:13:30.066 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 11:13:30.079 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:13:30.092 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:13:30.095 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:13:30.247 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 11:13:30.252 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 153.2409ms
+2025-07-18 11:13:30.257 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 11:13:30.263 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:13:30.296 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:13:30.299 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 232.5036ms
+2025-07-18 11:13:30.332 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:13:30.347 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:13:30.480 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 11:13:30.533 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 182.7763ms
+2025-07-18 11:13:30.567 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:13:30.648 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 391.2518ms
+2025-07-18 11:13:47.360 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 11:13:47.360 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 11:13:47.369 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:13:47.375 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:13:47.377 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 17.301ms
+2025-07-18 11:13:47.379 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 18.858ms
+2025-07-18 11:13:47.398 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 11:13:47.410 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:13:47.414 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:13:47.417 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:13:47.531 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 11:13:47.551 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 124.5923ms
+2025-07-18 11:13:47.560 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 11:13:47.566 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:13:47.576 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:13:47.580 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 182.7266ms
+2025-07-18 11:13:47.586 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:13:47.606 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:13:47.707 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 11:13:47.710 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 99.8292ms
+2025-07-18 11:13:47.713 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:13:47.716 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 155.5109ms
+2025-07-18 11:27:01.883 -05:00 [INF] Application is shutting down...
+2025-07-18 11:27:31.291 -05:00 [INF] User profile is available. Using 'C:\Users\57315\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 11:27:31.659 -05:00 [INF] Now listening on: http://localhost:5232
+2025-07-18 11:27:31.667 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 11:27:31.670 -05:00 [INF] Hosting environment: Development
+2025-07-18 11:27:31.672 -05:00 [INF] Content root path: C:\Users\57315\Documents\AndresEspitia\NexusFinance\NexusFinance.API
+2025-07-18 11:27:35.756 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 11:27:35.783 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 11:27:36.119 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:27:36.324 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:27:36.331 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 590.8289ms
+2025-07-18 11:27:36.356 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 618.2478ms
+2025-07-18 11:27:36.458 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 11:27:36.487 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:27:36.606 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-07-18 11:27:37.067 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:27:37.184 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:27:38.737 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 1535.9092ms
+2025-07-18 11:27:38.744 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:27:38.756 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.DataException: Error parsing column 4 (FechaInicio=15/07/2025 0:00:00 - DateTime)
+ ---> System.InvalidCastException: Invalid cast from 'System.DateTime' to 'System.DateOnly'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at Deserialize020a5b60-59dd-4b2d-ac3a-964768df4ab4(DbDataReader)
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3966
+   at Deserialize020a5b60-59dd-4b2d-ac3a-964768df4ab4(DbDataReader)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command)
+   at NexusFinance.API.Services.PresupuestoService.ObtenerPresupuestosPorUsuarioAsync(Guid usuarioId, Nullable`1 fechaReferencia, String periodo, Boolean soloActivos)
+   at NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario(Guid usuarioId, String periodo, Boolean soloActivos, Nullable`1 fechaReferencia)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-18 11:27:38.903 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 500 null text/plain; charset=utf-8 2444.5432ms
+2025-07-18 11:27:38.909 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 11:27:38.926 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:27:38.944 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:27:38.951 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:27:39.103 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 131.8063ms
+2025-07-18 11:27:39.110 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:27:39.120 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.DataException: Error parsing column 4 (FechaInicio=15/07/2025 0:00:00 - DateTime)
+ ---> System.InvalidCastException: Invalid cast from 'System.DateTime' to 'System.DateOnly'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at Deserialize020a5b60-59dd-4b2d-ac3a-964768df4ab4(DbDataReader)
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3966
+   at Deserialize020a5b60-59dd-4b2d-ac3a-964768df4ab4(DbDataReader)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command)
+   at NexusFinance.API.Services.PresupuestoService.ObtenerPresupuestosPorUsuarioAsync(Guid usuarioId, Nullable`1 fechaReferencia, String periodo, Boolean soloActivos)
+   at NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario(Guid usuarioId, String periodo, Boolean soloActivos, Nullable`1 fechaReferencia)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-18 11:27:39.204 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 500 null text/plain; charset=utf-8 294.4141ms
+2025-07-18 11:30:53.959 -05:00 [INF] Application is shutting down...
+2025-07-18 11:31:09.431 -05:00 [INF] User profile is available. Using 'C:\Users\57315\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 11:31:09.781 -05:00 [INF] Now listening on: http://localhost:5232
+2025-07-18 11:31:09.790 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 11:31:09.795 -05:00 [INF] Hosting environment: Development
+2025-07-18 11:31:09.797 -05:00 [INF] Content root path: C:\Users\57315\Documents\AndresEspitia\NexusFinance\NexusFinance.API
+2025-07-18 11:31:17.229 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 11:31:17.222 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 11:31:17.410 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:31:17.412 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:31:17.493 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 283.9774ms
+2025-07-18 11:31:17.494 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 285.2235ms
+2025-07-18 11:31:17.589 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 11:31:18.244 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:31:18.598 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-07-18 11:31:18.998 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:31:19.089 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:31:20.609 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 1509.6764ms
+2025-07-18 11:31:20.614 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:31:20.621 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.DataException: Error parsing column 4 (FechaInicio=15/07/2025 0:00:00 - DateTime)
+ ---> System.InvalidCastException: Invalid cast from 'System.DateTime' to 'System.DateOnly'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at Deserialize4465f7dd-4a1c-4bbb-8b51-69997bb36095(DbDataReader)
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3966
+   at Deserialize4465f7dd-4a1c-4bbb-8b51-69997bb36095(DbDataReader)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command)
+   at NexusFinance.API.Services.PresupuestoService.ObtenerPresupuestosPorUsuarioAsync(Guid usuarioId, Nullable`1 fechaReferencia, String periodo, Boolean soloActivos)
+   at NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario(Guid usuarioId, String periodo, Boolean soloActivos, Nullable`1 fechaReferencia)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-18 11:31:20.812 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 500 null text/plain; charset=utf-8 3222.2199ms
+2025-07-18 11:31:20.820 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 11:31:20.826 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:31:20.838 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:31:20.841 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:31:20.955 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 109.8476ms
+2025-07-18 11:31:20.959 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:31:20.963 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.DataException: Error parsing column 4 (FechaInicio=15/07/2025 0:00:00 - DateTime)
+ ---> System.InvalidCastException: Invalid cast from 'System.DateTime' to 'System.DateOnly'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at Deserialize4465f7dd-4a1c-4bbb-8b51-69997bb36095(DbDataReader)
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3966
+   at Deserialize4465f7dd-4a1c-4bbb-8b51-69997bb36095(DbDataReader)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command)
+   at NexusFinance.API.Services.PresupuestoService.ObtenerPresupuestosPorUsuarioAsync(Guid usuarioId, Nullable`1 fechaReferencia, String periodo, Boolean soloActivos)
+   at NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario(Guid usuarioId, String periodo, Boolean soloActivos, Nullable`1 fechaReferencia)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-18 11:31:20.979 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 500 null text/plain; charset=utf-8 158.9151ms
+2025-07-18 11:33:34.658 -05:00 [INF] Application is shutting down...
+2025-07-18 11:33:46.572 -05:00 [INF] User profile is available. Using 'C:\Users\57315\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 11:33:46.823 -05:00 [INF] Now listening on: http://localhost:5232
+2025-07-18 11:33:46.832 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 11:33:46.836 -05:00 [INF] Hosting environment: Development
+2025-07-18 11:33:46.839 -05:00 [INF] Content root path: C:\Users\57315\Documents\AndresEspitia\NexusFinance\NexusFinance.API
+2025-07-18 11:33:53.492 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 11:33:53.493 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 11:33:53.580 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:33:53.580 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:33:53.597 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 107.5407ms
+2025-07-18 11:33:53.597 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 107.5404ms
+2025-07-18 11:33:53.615 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 11:33:53.630 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:33:53.671 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-07-18 11:33:53.885 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:33:53.934 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:33:55.019 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NexusFinance.API.Models.DTOs.PresupuestoResponseDTO, NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 11:33:55.150 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 11:33:55.155 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 1212.2164ms
+2025-07-18 11:33:55.155 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:33:55.157 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:33:55.160 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 1545.3994ms
+2025-07-18 11:33:55.163 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:33:55.165 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:33:55.270 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NexusFinance.API.Models.DTOs.PresupuestoResponseDTO, NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 11:33:55.274 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 105.6283ms
+2025-07-18 11:33:55.276 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:33:55.278 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 127.9617ms
+2025-07-18 11:34:20.507 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/5c7d2119-6a7f-4cd2-83b0-355c2f59af73 - null null
+2025-07-18 11:34:20.512 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:34:20.515 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/5c7d2119-6a7f-4cd2-83b0-355c2f59af73 - 204 null null 7.9042ms
+2025-07-18 11:34:20.524 -05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5232/api/Presupuesto/5c7d2119-6a7f-4cd2-83b0-355c2f59af73 - application/json 184
+2025-07-18 11:34:20.560 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:34:20.578 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.Actualizar (NexusFinance.API)'
+2025-07-18 11:34:20.593 -05:00 [INF] Route matched with {action = "Actualizar", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Actualizar(System.Guid, NexusFinance.API.Models.DTOs.ActualizarPresupuestoDTO) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:34:20.898 -05:00 [INF] Executing OkObjectResult, writing value of type 'Dapper.SqlMapper+DapperRow'.
+2025-07-18 11:34:20.916 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.Actualizar (NexusFinance.API) in 319.1027ms
+2025-07-18 11:34:20.919 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.Actualizar (NexusFinance.API)'
+2025-07-18 11:34:20.920 -05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5232/api/Presupuesto/5c7d2119-6a7f-4cd2-83b0-355c2f59af73 - 200 null application/json; charset=utf-8 396.2549ms
+2025-07-18 11:34:22.946 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 11:34:22.950 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:34:22.951 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 5.6681ms
+2025-07-18 11:34:22.956 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 11:34:22.964 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:34:22.967 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:34:22.970 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:34:23.069 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NexusFinance.API.Models.DTOs.PresupuestoResponseDTO, NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 11:34:23.077 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 103.055ms
+2025-07-18 11:34:23.083 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:34:23.086 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 129.9744ms
+2025-07-18 11:43:36.575 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto - null null
+2025-07-18 11:43:36.627 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:43:36.641 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto - 204 null null 72.4858ms
+2025-07-18 11:43:36.657 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/Presupuesto - application/json 193
+2025-07-18 11:43:36.678 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:43:36.751 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.Crear (NexusFinance.API)'
+2025-07-18 11:43:36.841 -05:00 [INF] Route matched with {action = "Crear", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Crear(NexusFinance.API.Models.DTOs.CrearPresupuestoDTO) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:43:37.846 -05:00 [INF] Executing OkObjectResult, writing value of type 'Dapper.SqlMapper+DapperRow'.
+2025-07-18 11:43:37.855 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.Crear (NexusFinance.API) in 1002.0155ms
+2025-07-18 11:43:37.859 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.Crear (NexusFinance.API)'
+2025-07-18 11:43:37.862 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/Presupuesto - 200 null application/json; charset=utf-8 1204.6863ms
+2025-07-18 11:43:39.940 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 11:43:39.959 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:43:39.964 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 23.0194ms
+2025-07-18 11:43:39.991 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 11:43:40.008 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:43:40.024 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:43:40.028 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:43:40.200 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NexusFinance.API.Models.DTOs.PresupuestoResponseDTO, NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 11:43:40.343 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 300.2122ms
+2025-07-18 11:43:40.348 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:43:40.350 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 359.2451ms
+2025-07-18 11:43:57.814 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/b11c7f38-43fe-4c9f-a3ab-f36385c5e29b?eliminacionFisica=false - null null
+2025-07-18 11:43:58.133 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:43:58.198 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/b11c7f38-43fe-4c9f-a3ab-f36385c5e29b?eliminacionFisica=false - 204 null null 324.8229ms
+2025-07-18 11:43:58.264 -05:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5232/api/Presupuesto/b11c7f38-43fe-4c9f-a3ab-f36385c5e29b?eliminacionFisica=false - application/json null
+2025-07-18 11:43:58.278 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:43:58.282 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.Eliminar (NexusFinance.API)'
+2025-07-18 11:43:58.502 -05:00 [INF] Route matched with {action = "Eliminar", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Eliminar(System.Guid, Boolean) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:44:01.107 -05:00 [INF] Executing OkObjectResult, writing value of type 'Dapper.SqlMapper+DapperRow'.
+2025-07-18 11:44:01.116 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.Eliminar (NexusFinance.API) in 2541.0975ms
+2025-07-18 11:44:01.121 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.Eliminar (NexusFinance.API)'
+2025-07-18 11:44:01.126 -05:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5232/api/Presupuesto/b11c7f38-43fe-4c9f-a3ab-f36385c5e29b?eliminacionFisica=false - 200 null application/json; charset=utf-8 2918.4809ms
+2025-07-18 11:44:03.132 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 11:44:03.135 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:44:03.136 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 3.6096ms
+2025-07-18 11:44:03.139 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 11:44:03.142 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:44:03.148 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:44:03.150 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:44:03.271 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NexusFinance.API.Models.DTOs.PresupuestoResponseDTO, NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 11:44:03.273 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 120.3377ms
+2025-07-18 11:44:03.275 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:44:03.278 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 138.6733ms
+2025-07-18 11:44:05.402 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=false - null null
+2025-07-18 11:44:05.407 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:44:05.408 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=false - 204 null null 5.871ms
+2025-07-18 11:44:05.413 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=false - application/json null
+2025-07-18 11:44:05.416 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:44:05.419 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:44:05.421 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:44:05.532 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NexusFinance.API.Models.DTOs.PresupuestoResponseDTO, NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 11:44:05.538 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 114.1102ms
+2025-07-18 11:44:05.541 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:44:05.542 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=false - 200 null application/json; charset=utf-8 129.6924ms
+2025-07-18 11:44:15.538 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/b11c7f38-43fe-4c9f-a3ab-f36385c5e29b - null null
+2025-07-18 11:44:15.544 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:44:15.545 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/b11c7f38-43fe-4c9f-a3ab-f36385c5e29b - 204 null null 6.9067ms
+2025-07-18 11:44:15.549 -05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5232/api/Presupuesto/b11c7f38-43fe-4c9f-a3ab-f36385c5e29b - application/json 74
+2025-07-18 11:44:15.553 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:44:15.555 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.Actualizar (NexusFinance.API)'
+2025-07-18 11:44:15.555 -05:00 [INF] Route matched with {action = "Actualizar", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Actualizar(System.Guid, NexusFinance.API.Models.DTOs.ActualizarPresupuestoDTO) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:44:15.674 -05:00 [INF] Executing OkObjectResult, writing value of type 'Dapper.SqlMapper+DapperRow'.
+2025-07-18 11:44:15.682 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.Actualizar (NexusFinance.API) in 125.261ms
+2025-07-18 11:44:15.685 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.Actualizar (NexusFinance.API)'
+2025-07-18 11:44:15.686 -05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5232/api/Presupuesto/b11c7f38-43fe-4c9f-a3ab-f36385c5e29b - 200 null application/json; charset=utf-8 136.5595ms
+2025-07-18 11:44:17.707 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=false - null null
+2025-07-18 11:44:17.710 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:44:17.726 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=false - 204 null null 18.8005ms
+2025-07-18 11:44:17.746 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=false - application/json null
+2025-07-18 11:44:17.749 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:44:17.757 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:44:17.758 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:44:17.868 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NexusFinance.API.Models.DTOs.PresupuestoResponseDTO, NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 11:44:17.871 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 110.6655ms
+2025-07-18 11:44:17.872 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:44:17.873 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=false - 200 null application/json; charset=utf-8 127.4401ms
+2025-07-18 11:44:23.801 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/b11c7f38-43fe-4c9f-a3ab-f36385c5e29b?eliminacionFisica=true - null null
+2025-07-18 11:44:23.814 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:44:23.818 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/b11c7f38-43fe-4c9f-a3ab-f36385c5e29b?eliminacionFisica=true - 204 null null 16.7843ms
+2025-07-18 11:44:23.824 -05:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5232/api/Presupuesto/b11c7f38-43fe-4c9f-a3ab-f36385c5e29b?eliminacionFisica=true - application/json null
+2025-07-18 11:44:23.828 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:44:23.830 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.Eliminar (NexusFinance.API)'
+2025-07-18 11:44:23.833 -05:00 [INF] Route matched with {action = "Eliminar", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Eliminar(System.Guid, Boolean) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:44:23.949 -05:00 [INF] Executing OkObjectResult, writing value of type 'Dapper.SqlMapper+DapperRow'.
+2025-07-18 11:44:23.953 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.Eliminar (NexusFinance.API) in 118.6443ms
+2025-07-18 11:44:23.954 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.Eliminar (NexusFinance.API)'
+2025-07-18 11:44:23.955 -05:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5232/api/Presupuesto/b11c7f38-43fe-4c9f-a3ab-f36385c5e29b?eliminacionFisica=true - 200 null application/json; charset=utf-8 131.2092ms
+2025-07-18 11:44:26.968 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=false - null null
+2025-07-18 11:44:26.972 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:44:26.973 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=false - 204 null null 4.997ms
+2025-07-18 11:44:26.978 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=false - application/json null
+2025-07-18 11:44:26.983 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:44:26.985 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:44:26.986 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:44:27.096 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NexusFinance.API.Models.DTOs.PresupuestoResponseDTO, NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 11:44:27.102 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 114.2203ms
+2025-07-18 11:44:27.104 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:44:27.105 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=false - 200 null application/json; charset=utf-8 126.7208ms
+2025-07-18 11:45:56.011 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 11:45:56.015 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:45:56.015 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 11:45:56.017 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 5.632ms
+2025-07-18 11:45:56.023 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 11:45:56.019 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:45:56.028 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:45:56.044 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 28.4754ms
+2025-07-18 11:45:56.052 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:45:56.062 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:45:56.173 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NexusFinance.API.Models.DTOs.PresupuestoResponseDTO, NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 11:45:56.177 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 112.151ms
+2025-07-18 11:45:56.181 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 11:45:56.182 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:45:56.187 -05:00 [INF] CORS policy execution successful.
+2025-07-18 11:45:56.189 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 165.8455ms
+2025-07-18 11:45:56.199 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:45:56.202 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 11:45:56.314 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NexusFinance.API.Models.DTOs.PresupuestoResponseDTO, NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 11:45:56.320 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 113.3839ms
+2025-07-18 11:45:56.321 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 11:45:56.322 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 141.8934ms
+2025-07-18 12:40:19.742 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 12:40:19.742 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 12:40:19.761 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:40:19.761 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:40:19.767 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 26.2376ms
+2025-07-18 12:40:19.767 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 26.0793ms
+2025-07-18 12:40:19.790 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 12:40:19.805 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:40:19.906 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'I_KNbLzqmbh1axENHKz7M52mml8asvz5SZ68OipxTKg'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-07-18 12:40:20.026 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'I_KNbLzqmbh1axENHKz7M52mml8asvz5SZ68OipxTKg'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-07-18 12:40:20.041 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-18 12:40:20.060 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-18 12:40:20.063 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 401 0 null 273.0941ms
+2025-07-18 12:40:20.069 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 12:40:20.077 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:40:20.079 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'I_KNbLzqmbh1axENHKz7M52mml8asvz5SZ68OipxTKg'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-07-18 12:40:20.084 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'I_KNbLzqmbh1axENHKz7M52mml8asvz5SZ68OipxTKg'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-07-18 12:40:20.087 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-18 12:40:20.090 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-18 12:40:20.093 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 401 0 null 24.082ms
+2025-07-18 12:40:25.205 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 12:40:25.206 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 12:40:25.216 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:40:25.221 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:40:25.223 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 17.82ms
+2025-07-18 12:40:25.224 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 18.0936ms
+2025-07-18 12:40:25.238 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 12:40:25.245 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:40:25.270 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'I_KNbLzqmbh1axENHKz7M52mml8asvz5SZ68OipxTKg'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-07-18 12:40:25.283 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'I_KNbLzqmbh1axENHKz7M52mml8asvz5SZ68OipxTKg'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-07-18 12:40:25.286 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-18 12:40:25.290 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-18 12:40:25.304 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 401 0 null 65.7403ms
+2025-07-18 12:40:25.323 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 12:40:25.333 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:40:25.369 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'I_KNbLzqmbh1axENHKz7M52mml8asvz5SZ68OipxTKg'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-07-18 12:40:25.468 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'I_KNbLzqmbh1axENHKz7M52mml8asvz5SZ68OipxTKg'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-07-18 12:40:25.475 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-18 12:40:25.480 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-18 12:40:25.487 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 401 0 null 164.0766ms
+2025-07-18 12:40:36.153 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 12:40:36.154 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 12:40:36.160 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:40:36.162 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:40:36.163 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 9.6706ms
+2025-07-18 12:40:36.163 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 9.7999ms
+2025-07-18 12:40:36.170 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 12:40:36.173 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:40:36.177 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 12:40:36.190 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 12:40:36.857 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NexusFinance.API.Models.DTOs.PresupuestoResponseDTO, NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 12:40:36.867 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 675.0721ms
+2025-07-18 12:40:36.874 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 12:40:36.882 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 12:40:36.886 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:40:36.887 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 717.0642ms
+2025-07-18 12:40:36.889 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 12:40:36.899 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 12:40:37.002 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NexusFinance.API.Models.DTOs.PresupuestoResponseDTO, NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 12:40:37.005 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 103.9171ms
+2025-07-18 12:40:37.006 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 12:40:37.008 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 133.6716ms
+2025-07-18 12:40:40.011 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 12:40:40.012 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 12:40:40.017 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:40:40.021 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:40:40.023 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 11.8064ms
+2025-07-18 12:40:40.024 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 12.5063ms
+2025-07-18 12:40:40.034 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 12:40:40.041 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:40:40.044 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'I_KNbLzqmbh1axENHKz7M52mml8asvz5SZ68OipxTKg'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-07-18 12:40:40.050 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'I_KNbLzqmbh1axENHKz7M52mml8asvz5SZ68OipxTKg'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-07-18 12:40:40.054 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-18 12:40:40.058 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-18 12:40:40.060 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 401 0 null 25.828ms
+2025-07-18 12:40:40.065 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 12:40:40.069 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:40:40.071 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'I_KNbLzqmbh1axENHKz7M52mml8asvz5SZ68OipxTKg'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-07-18 12:40:40.076 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'I_KNbLzqmbh1axENHKz7M52mml8asvz5SZ68OipxTKg'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-07-18 12:40:40.078 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-18 12:40:40.081 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-18 12:40:40.082 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 401 0 null 17.4081ms
+2025-07-18 12:41:46.300 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 12:41:46.300 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 12:41:46.318 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:41:46.319 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:41:46.322 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 23.1652ms
+2025-07-18 12:41:46.325 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 26.2532ms
+2025-07-18 12:41:46.337 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 12:41:46.352 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:41:46.363 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'I_KNbLzqmbh1axENHKz7M52mml8asvz5SZ68OipxTKg'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-07-18 12:41:46.376 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'I_KNbLzqmbh1axENHKz7M52mml8asvz5SZ68OipxTKg'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-07-18 12:41:46.381 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-18 12:41:46.384 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-18 12:41:46.388 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 401 0 null 50.7972ms
+2025-07-18 12:41:46.399 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 12:41:46.409 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:41:46.411 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'I_KNbLzqmbh1axENHKz7M52mml8asvz5SZ68OipxTKg'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-07-18 12:41:46.421 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'I_KNbLzqmbh1axENHKz7M52mml8asvz5SZ68OipxTKg'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-07-18 12:41:46.426 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-18 12:41:46.428 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-18 12:41:46.430 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 401 0 null 30.4647ms
+2025-07-18 12:42:33.382 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - null null
+2025-07-18 12:42:33.389 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:42:33.390 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - 204 null null 8.2725ms
+2025-07-18 12:42:33.396 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - application/json 52
+2025-07-18 12:42:33.406 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:42:33.413 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-18 12:42:33.450 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-18 12:42:35.266 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`6[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 12:42:35.292 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 1836.9454ms
+2025-07-18 12:42:35.296 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-18 12:42:35.298 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - 200 null application/json; charset=utf-8 1901.7488ms
+2025-07-18 12:42:37.478 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 12:42:37.479 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 12:42:37.484 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:42:37.486 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:42:37.487 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 8.9826ms
+2025-07-18 12:42:37.490 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 10.3385ms
+2025-07-18 12:42:37.494 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 12:42:37.502 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:42:37.503 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-18 12:42:37.504 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-18 12:42:37.535 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 401 0 null 41.3333ms
+2025-07-18 12:42:37.541 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 12:42:37.544 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:42:37.545 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-18 12:42:37.546 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-18 12:42:37.548 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 401 0 null 6.6186ms
+2025-07-18 12:43:17.488 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 12:43:17.488 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - null null
+2025-07-18 12:43:17.847 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:43:18.208 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:43:18.715 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 1226.0158ms
+2025-07-18 12:43:19.097 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 204 null null 1609.2927ms
+2025-07-18 12:43:19.206 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 12:43:19.333 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:43:19.349 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 12:43:19.366 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 12:43:23.421 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NexusFinance.API.Models.DTOs.PresupuestoResponseDTO, NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 12:43:23.429 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 4048.0303ms
+2025-07-18 12:43:23.432 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 12:43:23.435 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 4228.5659ms
+2025-07-18 12:43:23.436 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - application/json null
+2025-07-18 12:43:23.458 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:43:23.464 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 12:43:23.467 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "Presupuesto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.Nullable`1[System.DateTime]) on controller NexusFinance.API.Controllers.PresupuestoController (NexusFinance.API).
+2025-07-18 12:43:23.570 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NexusFinance.API.Models.DTOs.PresupuestoResponseDTO, NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 12:43:23.576 -05:00 [INF] Executed action NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API) in 102.1226ms
+2025-07-18 12:43:23.579 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.PresupuestoController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 12:43:23.582 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/Presupuesto/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivos=true - 200 null application/json; charset=utf-8 146.2537ms
+2025-07-18 12:46:29.633 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 12:46:29.633 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 12:46:29.725 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:46:29.725 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:46:29.756 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 127.8097ms
+2025-07-18 12:46:29.756 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 123.9027ms
+2025-07-18 12:46:29.825 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 12:46:29.866 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:46:29.949 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-18 12:46:29.965 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-18 12:46:29.982 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 401 0 null 156.5951ms
+2025-07-18 12:46:30.086 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 12:46:30.138 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:46:30.157 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-18 12:46:30.167 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-18 12:46:30.181 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 401 0 null 95.2469ms
+2025-07-18 12:48:42.337 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 12:48:42.337 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 12:48:42.386 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:48:42.398 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:48:42.411 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 74.8253ms
+2025-07-18 12:48:42.411 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 75.9975ms
+2025-07-18 12:48:42.438 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 12:48:42.465 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:48:42.508 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 12:48:42.610 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "MetasFinanciera"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.String) on controller NexusFinance.API.Controllers.MetasFinancieraController (NexusFinance.API).
+2025-07-18 12:48:43.343 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 12:48:43.362 -05:00 [INF] Executed action NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API) in 746.9827ms
+2025-07-18 12:48:43.364 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 12:48:43.365 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 12:48:43.370 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:48:43.373 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 200 null application/json; charset=utf-8 935.7199ms
+2025-07-18 12:48:43.376 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 12:48:43.382 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "MetasFinanciera"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.String) on controller NexusFinance.API.Controllers.MetasFinancieraController (NexusFinance.API).
+2025-07-18 12:48:43.487 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 12:48:43.491 -05:00 [INF] Executed action NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API) in 103.6755ms
+2025-07-18 12:48:43.493 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 12:48:43.495 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 200 null application/json; charset=utf-8 130.4343ms
+2025-07-18 12:54:55.600 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - null null
+2025-07-18 12:54:55.659 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:54:55.675 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - 204 null null 77.6648ms
+2025-07-18 12:54:55.700 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - application/json 52
+2025-07-18 12:54:55.715 -05:00 [INF] CORS policy execution successful.
+2025-07-18 12:54:55.793 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-18 12:54:55.843 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-18 12:54:57.396 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`6[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 12:54:57.503 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 1654.928ms
+2025-07-18 12:54:57.517 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-18 12:54:57.522 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - 200 null application/json; charset=utf-8 1822.4344ms
+2025-07-18 12:55:57.812 -05:00 [WRN] As of ""2025-07-18T17:55:57.5145916+00:00"", the heartbeat has been running for ""00:00:08.9484890"" which is longer than ""00:00:01"". This could be caused by thread pool starvation.
+2025-07-18 13:00:18.060 -05:00 [WRN] As of ""2025-07-18T18:00:17.7928247+00:00"", the heartbeat has been running for ""00:00:01.0153774"" which is longer than ""00:00:01"". This could be caused by thread pool starvation.
+2025-07-18 13:03:30.455 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - null null
+2025-07-18 13:03:30.514 -05:00 [INF] CORS policy execution successful.
+2025-07-18 13:03:30.538 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/Usuarios/login - 204 null null 84.9465ms
+2025-07-18 13:03:30.560 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - application/json 52
+2025-07-18 13:03:30.574 -05:00 [INF] CORS policy execution successful.
+2025-07-18 13:03:30.609 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-18 13:03:30.638 -05:00 [INF] Route matched with {action = "Login", controller = "Usuarios"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NexusFinance.API.Models.DTOs.LoginUsuarioDTO) on controller NexusFinance.API.Controllers.UsuariosController (NexusFinance.API).
+2025-07-18 13:03:31.892 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`6[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], NexusFinance.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 13:03:31.903 -05:00 [INF] Executed action NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API) in 1257.9317ms
+2025-07-18 13:03:31.905 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.UsuariosController.Login (NexusFinance.API)'
+2025-07-18 13:03:31.907 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/Usuarios/login - 200 null application/json; charset=utf-8 1348.0081ms
+2025-07-18 13:04:06.050 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 13:04:06.056 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 13:04:06.064 -05:00 [INF] CORS policy execution successful.
+2025-07-18 13:04:06.069 -05:00 [INF] CORS policy execution successful.
+2025-07-18 13:04:06.070 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 19.5173ms
+2025-07-18 13:04:06.070 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 14.0524ms
+2025-07-18 13:04:06.078 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 13:04:06.097 -05:00 [INF] CORS policy execution successful.
+2025-07-18 13:04:06.127 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 13:04:06.132 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "MetasFinanciera"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.String) on controller NexusFinance.API.Controllers.MetasFinancieraController (NexusFinance.API).
+2025-07-18 13:04:06.790 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 13:04:06.794 -05:00 [INF] Executed action NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API) in 657.1635ms
+2025-07-18 13:04:06.795 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 13:04:06.797 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 13:04:06.802 -05:00 [INF] CORS policy execution successful.
+2025-07-18 13:04:06.803 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 200 null application/json; charset=utf-8 724.9198ms
+2025-07-18 13:04:06.805 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 13:04:06.808 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "MetasFinanciera"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.String) on controller NexusFinance.API.Controllers.MetasFinancieraController (NexusFinance.API).
+2025-07-18 13:04:06.904 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 13:04:06.911 -05:00 [INF] Executed action NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API) in 101.6131ms
+2025-07-18 13:04:06.918 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 13:04:06.919 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 200 null application/json; charset=utf-8 123.6158ms
+2025-07-18 13:04:29.196 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 13:04:29.199 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 13:04:29.217 -05:00 [INF] CORS policy execution successful.
+2025-07-18 13:04:29.225 -05:00 [INF] CORS policy execution successful.
+2025-07-18 13:04:29.231 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 35.1093ms
+2025-07-18 13:04:29.266 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 67.396ms
+2025-07-18 13:04:29.298 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 13:04:29.366 -05:00 [INF] CORS policy execution successful.
+2025-07-18 13:04:29.373 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 13:04:29.389 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "MetasFinanciera"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.String) on controller NexusFinance.API.Controllers.MetasFinancieraController (NexusFinance.API).
+2025-07-18 13:04:29.500 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 13:04:29.521 -05:00 [INF] Executed action NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API) in 121.3563ms
+2025-07-18 13:04:29.528 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 13:04:29.529 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 13:04:29.538 -05:00 [INF] CORS policy execution successful.
+2025-07-18 13:04:29.541 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 200 null application/json; charset=utf-8 243.2927ms
+2025-07-18 13:04:29.545 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 13:04:29.561 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "MetasFinanciera"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.String) on controller NexusFinance.API.Controllers.MetasFinancieraController (NexusFinance.API).
+2025-07-18 13:04:29.666 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 13:04:29.671 -05:00 [INF] Executed action NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API) in 101.7747ms
+2025-07-18 13:04:29.677 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 13:04:29.680 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 200 null application/json; charset=utf-8 152.5026ms
+2025-07-18 13:09:22.307 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera - null null
+2025-07-18 13:09:22.506 -05:00 [INF] CORS policy execution successful.
+2025-07-18 13:09:22.548 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera - 204 null null 242.1491ms
+2025-07-18 13:09:22.582 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/MetasFinanciera - application/json 221
+2025-07-18 13:09:22.599 -05:00 [INF] CORS policy execution successful.
+2025-07-18 13:09:22.639 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.Crear (NexusFinance.API)'
+2025-07-18 13:09:22.822 -05:00 [INF] Route matched with {action = "Crear", controller = "MetasFinanciera"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Crear(NexusFinance.API.Models.DTOs.CrearMetaFinancieraDTO) on controller NexusFinance.API.Controllers.MetasFinancieraController (NexusFinance.API).
+2025-07-18 13:09:23.193 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-18 13:09:23.328 -05:00 [INF] Executed action NexusFinance.API.Controllers.MetasFinancieraController.Crear (NexusFinance.API) in 475.5716ms
+2025-07-18 13:09:23.334 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.Crear (NexusFinance.API)'
+2025-07-18 13:09:23.338 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/MetasFinanciera - 400 null application/problem+json; charset=utf-8 755.8154ms
+2025-07-18 14:20:59.776 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 14:20:59.776 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 14:20:59.897 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:20:59.897 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:20:59.920 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 157.4078ms
+2025-07-18 14:20:59.920 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 157.0683ms
+2025-07-18 14:20:59.954 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 14:21:00.035 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:21:00.241 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 14:21:00.338 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "MetasFinanciera"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.String) on controller NexusFinance.API.Controllers.MetasFinancieraController (NexusFinance.API).
+2025-07-18 14:21:01.320 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 14:21:01.350 -05:00 [INF] Executed action NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API) in 1004.8918ms
+2025-07-18 14:21:01.352 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 14:21:01.353 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 14:21:01.358 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:21:01.361 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 200 null application/json; charset=utf-8 1406.7111ms
+2025-07-18 14:21:01.367 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 14:21:01.379 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "MetasFinanciera"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.String) on controller NexusFinance.API.Controllers.MetasFinancieraController (NexusFinance.API).
+2025-07-18 14:21:01.522 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 14:21:01.530 -05:00 [INF] Executed action NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API) in 143.1158ms
+2025-07-18 14:21:01.541 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 14:21:01.544 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 200 null application/json; charset=utf-8 191.6898ms
+2025-07-18 14:21:30.173 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera - null null
+2025-07-18 14:21:30.181 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:21:30.183 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera - 204 null null 10.1539ms
+2025-07-18 14:21:30.196 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/MetasFinanciera - application/json 215
+2025-07-18 14:21:30.205 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:21:30.209 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.Crear (NexusFinance.API)'
+2025-07-18 14:21:30.214 -05:00 [INF] Route matched with {action = "Crear", controller = "MetasFinanciera"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Crear(NexusFinance.API.Models.DTOs.CrearMetaFinancieraDTO) on controller NexusFinance.API.Controllers.MetasFinancieraController (NexusFinance.API).
+2025-07-18 14:21:30.285 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-18 14:21:30.291 -05:00 [INF] Executed action NexusFinance.API.Controllers.MetasFinancieraController.Crear (NexusFinance.API) in 70.3728ms
+2025-07-18 14:21:30.294 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.Crear (NexusFinance.API)'
+2025-07-18 14:21:30.298 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/MetasFinanciera - 400 null application/problem+json; charset=utf-8 101.8131ms
+2025-07-18 14:21:52.717 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera - null null
+2025-07-18 14:21:52.767 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:21:52.806 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera - 204 null null 89.3753ms
+2025-07-18 14:21:52.824 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/MetasFinanciera - application/json 215
+2025-07-18 14:21:52.831 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:21:52.836 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.Crear (NexusFinance.API)'
+2025-07-18 14:21:52.839 -05:00 [INF] Route matched with {action = "Crear", controller = "MetasFinanciera"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Crear(NexusFinance.API.Models.DTOs.CrearMetaFinancieraDTO) on controller NexusFinance.API.Controllers.MetasFinancieraController (NexusFinance.API).
+2025-07-18 14:21:52.859 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-18 14:21:52.908 -05:00 [INF] Executed action NexusFinance.API.Controllers.MetasFinancieraController.Crear (NexusFinance.API) in 53.8988ms
+2025-07-18 14:21:53.016 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.Crear (NexusFinance.API)'
+2025-07-18 14:21:53.019 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/MetasFinanciera - 400 null application/problem+json; charset=utf-8 195.6066ms
+2025-07-18 14:22:12.174 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera - null null
+2025-07-18 14:22:12.297 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:22:12.308 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera - 204 null null 133.5493ms
+2025-07-18 14:22:12.387 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/MetasFinanciera - application/json 215
+2025-07-18 14:22:12.417 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:22:12.422 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.Crear (NexusFinance.API)'
+2025-07-18 14:22:12.464 -05:00 [INF] Route matched with {action = "Crear", controller = "MetasFinanciera"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Crear(NexusFinance.API.Models.DTOs.CrearMetaFinancieraDTO) on controller NexusFinance.API.Controllers.MetasFinancieraController (NexusFinance.API).
+2025-07-18 14:22:12.473 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-18 14:22:12.496 -05:00 [INF] Executed action NexusFinance.API.Controllers.MetasFinancieraController.Crear (NexusFinance.API) in 25.7671ms
+2025-07-18 14:22:12.507 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.Crear (NexusFinance.API)'
+2025-07-18 14:22:12.554 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/MetasFinanciera - 400 null application/problem+json; charset=utf-8 167.4261ms
+2025-07-18 14:26:45.416 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 14:26:45.489 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 14:26:46.154 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:26:46.166 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:26:46.170 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 756.8248ms
+2025-07-18 14:26:46.173 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 690.8838ms
+2025-07-18 14:26:46.202 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 14:26:46.280 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:26:46.343 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 14:26:46.421 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "MetasFinanciera"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.String) on controller NexusFinance.API.Controllers.MetasFinancieraController (NexusFinance.API).
+2025-07-18 14:26:47.937 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 14:26:47.946 -05:00 [INF] Executed action NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API) in 1493.4719ms
+2025-07-18 14:26:47.953 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 14:26:47.959 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:26:47.955 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 14:26:47.967 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 200 null application/json; charset=utf-8 1764.5786ms
+2025-07-18 14:26:47.964 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 14:26:47.975 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "MetasFinanciera"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.String) on controller NexusFinance.API.Controllers.MetasFinancieraController (NexusFinance.API).
+2025-07-18 14:26:48.279 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 14:26:48.378 -05:00 [INF] Executed action NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API) in 396.2146ms
+2025-07-18 14:26:48.383 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 14:26:48.473 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 200 null application/json; charset=utf-8 519.6519ms
+2025-07-18 14:27:14.839 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera - null null
+2025-07-18 14:27:14.856 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:27:14.857 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera - 204 null null 18.142ms
+2025-07-18 14:27:14.872 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/MetasFinanciera - application/json 215
+2025-07-18 14:27:14.877 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:27:14.880 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.Crear (NexusFinance.API)'
+2025-07-18 14:27:14.883 -05:00 [INF] Route matched with {action = "Crear", controller = "MetasFinanciera"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Crear(NexusFinance.API.Models.DTOs.CrearMetaFinancieraDTO) on controller NexusFinance.API.Controllers.MetasFinancieraController (NexusFinance.API).
+2025-07-18 14:27:14.899 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-18 14:27:14.905 -05:00 [INF] Executed action NexusFinance.API.Controllers.MetasFinancieraController.Crear (NexusFinance.API) in 16.355ms
+2025-07-18 14:27:14.908 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.Crear (NexusFinance.API)'
+2025-07-18 14:27:14.910 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/MetasFinanciera - 400 null application/problem+json; charset=utf-8 37.4045ms
+2025-07-18 14:28:10.489 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 14:28:10.501 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 14:28:10.549 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:28:10.549 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:28:10.553 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 64.1646ms
+2025-07-18 14:28:10.553 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 51.5827ms
+2025-07-18 14:28:10.584 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 14:28:10.613 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:28:10.638 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 14:28:10.656 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "MetasFinanciera"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.String) on controller NexusFinance.API.Controllers.MetasFinancieraController (NexusFinance.API).
+2025-07-18 14:28:10.974 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 14:28:10.983 -05:00 [INF] Executed action NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API) in 319.0936ms
+2025-07-18 14:28:10.997 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 14:28:10.998 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 14:28:11.004 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:28:11.012 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 14:28:11.012 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 200 null application/json; charset=utf-8 428.0329ms
+2025-07-18 14:28:11.015 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "MetasFinanciera"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.String) on controller NexusFinance.API.Controllers.MetasFinancieraController (NexusFinance.API).
+2025-07-18 14:28:11.140 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 14:28:11.142 -05:00 [INF] Executed action NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API) in 118.8994ms
+2025-07-18 14:28:11.146 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 14:28:11.151 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 200 null application/json; charset=utf-8 153.8606ms
+2025-07-18 14:28:35.732 -05:00 [INF] Application is shutting down...
+2025-07-18 14:29:03.920 -05:00 [INF] User profile is available. Using 'C:\Users\57315\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 14:29:04.602 -05:00 [INF] Now listening on: http://localhost:5232
+2025-07-18 14:29:04.611 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 14:29:04.615 -05:00 [INF] Hosting environment: Development
+2025-07-18 14:29:04.618 -05:00 [INF] Content root path: C:\Users\57315\Documents\AndresEspitia\NexusFinance\NexusFinance.API
+2025-07-18 14:32:14.924 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 14:32:14.925 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - null null
+2025-07-18 14:32:14.972 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:32:14.972 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:32:14.981 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 57.1232ms
+2025-07-18 14:32:14.981 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 204 null null 57.2103ms
+2025-07-18 14:32:14.997 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 14:32:15.008 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:32:15.057 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-07-18 14:32:15.349 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 14:32:15.413 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "MetasFinanciera"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.String) on controller NexusFinance.API.Controllers.MetasFinancieraController (NexusFinance.API).
+2025-07-18 14:32:16.428 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 14:32:16.482 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - application/json null
+2025-07-18 14:32:16.486 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:32:16.486 -05:00 [INF] Executed action NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API) in 1062.4563ms
+2025-07-18 14:32:16.488 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 14:32:16.491 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 200 null application/json; charset=utf-8 1494.0446ms
+2025-07-18 14:32:16.491 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 14:32:16.496 -05:00 [INF] Route matched with {action = "ObtenerPorUsuario", controller = "MetasFinanciera"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ObtenerPorUsuario(System.Guid, System.String, Boolean, System.String) on controller NexusFinance.API.Controllers.MetasFinancieraController (NexusFinance.API).
+2025-07-18 14:32:16.598 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 14:32:16.601 -05:00 [INF] Executed action NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API) in 103.9832ms
+2025-07-18 14:32:16.602 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.ObtenerPorUsuario (NexusFinance.API)'
+2025-07-18 14:32:16.603 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5232/api/MetasFinanciera/usuario/8135ebd9-ba4d-4197-896f-ea4a9d9f1d02?soloActivas=true - 200 null application/json; charset=utf-8 121.3387ms
+2025-07-18 14:32:40.225 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera - null null
+2025-07-18 14:32:40.229 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:32:40.231 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera - 204 null null 5.598ms
+2025-07-18 14:32:40.239 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/MetasFinanciera - application/json 214
+2025-07-18 14:32:40.243 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:32:40.254 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.Crear (NexusFinance.API)'
+2025-07-18 14:32:40.261 -05:00 [INF] Route matched with {action = "Crear", controller = "MetasFinanciera"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Crear(NexusFinance.API.Models.DTOs.CrearMetaFinancieraDTO) on controller NexusFinance.API.Controllers.MetasFinancieraController (NexusFinance.API).
+2025-07-18 14:32:40.340 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-18 14:32:40.378 -05:00 [INF] Executed action NexusFinance.API.Controllers.MetasFinancieraController.Crear (NexusFinance.API) in 115.2924ms
+2025-07-18 14:32:40.382 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.Crear (NexusFinance.API)'
+2025-07-18 14:32:40.386 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/MetasFinanciera - 400 null application/problem+json; charset=utf-8 147.1297ms
+2025-07-18 14:33:17.411 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera - null null
+2025-07-18 14:33:17.418 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:33:17.420 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5232/api/MetasFinanciera - 204 null null 9.2492ms
+2025-07-18 14:33:17.425 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5232/api/MetasFinanciera - application/json 214
+2025-07-18 14:33:17.430 -05:00 [INF] CORS policy execution successful.
+2025-07-18 14:33:17.432 -05:00 [INF] Executing endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.Crear (NexusFinance.API)'
+2025-07-18 14:33:17.433 -05:00 [INF] Route matched with {action = "Crear", controller = "MetasFinanciera"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Crear(NexusFinance.API.Models.DTOs.CrearMetaFinancieraDTO) on controller NexusFinance.API.Controllers.MetasFinancieraController (NexusFinance.API).
+2025-07-18 14:33:17.436 -05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-18 14:33:17.437 -05:00 [INF] Executed action NexusFinance.API.Controllers.MetasFinancieraController.Crear (NexusFinance.API) in 2.061ms
+2025-07-18 14:33:17.438 -05:00 [INF] Executed endpoint 'NexusFinance.API.Controllers.MetasFinancieraController.Crear (NexusFinance.API)'
+2025-07-18 14:33:17.439 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5232/api/MetasFinanciera - 400 null application/problem+json; charset=utf-8 14.4987ms

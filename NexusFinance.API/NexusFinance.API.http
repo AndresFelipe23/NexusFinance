@@ -1,0 +1,6 @@
+@NexusFinance.API_HostAddress = http://localhost:5232
+
+GET {{NexusFinance.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
